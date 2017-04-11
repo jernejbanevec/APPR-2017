@@ -21,7 +21,7 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 * 2. stolpec: Država
 * 3. stolpec ali meritev: Nataliteta
 
-4. TABELA: Število splavov za državo za katere podatke bom našel
+4. TABELA: Število splavov za določeno državo
 * 1. stolpec: Leto
 * 2. stolpec: Država
 * 3. stolpec ali meritev: Število splavov
