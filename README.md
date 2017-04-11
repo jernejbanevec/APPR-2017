@@ -4,8 +4,14 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal. Tukaj boste
-napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+
+## Podatki
+* http://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=05J1002S&ti=&path=../Database/Dem_soc/05_prebivalstvo/30_Rodnost/05_05J10_rojeni_SL/&lang=2 (CSV)
+* http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00111&plugin=1 (CSV)
+* http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00112&plugin=1 (CSV)
+* 
+* http://www.irssv.si/demografija/2013-01-10-02-14-31/skupno-stevilo-splavov (CSV)
+
 
 ## Program
 
