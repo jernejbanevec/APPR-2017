@@ -4,7 +4,7 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
 
-Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povprečno realno mesečno plačo (v določenem letu) in odločanjem parov za otroke oz nataliteto (številom, ki pove, koliko (živih) otrok se rodi v letu na tisoč prebivalcev) v določenem letu. Realno mesečno plačo bi primerjal tudi s številom splavov v določeni državi za določeno leto. Pri analizi podatkov vem, da bom moral biti pozoren na dejstvo, da se v odločitev para za otroka lahko pozna komaj naslednje leto, ko pa je povprečna realna mesečna plača lahko že drugačna. Zavedam se tudi, da obstaja možnost ničelne oz. zelo šibke korelacije med zgornjimi spremenljivkami.
+Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povprečno realno mesečno plačo (v določenem letu) in odločanjem parov za otroke oz. nataliteto naroda (številom, ki pove, koliko (živih) otrok se rodi v letu na tisoč prebivalcev) v določenem letu. Realno mesečno plačo bi primerjal tudi s številom splavov v določeni državi za določeno leto. Pri analizi podatkov vem, da bom moral biti pozoren na dejstvo, da se v odločitev para za otroka lahko pozna komaj naslednje leto, ko pa je povprečna realna mesečna plača lahko že drugačna. Zavedam se tudi, da obstaja možnost ničelne oz. zelo šibke korelacije med zgornjimi spremenljivkami.
 
 1. TABELA: Povprečna neto mesečna plača za določeno državo
 * 1. stolpec: Leto
