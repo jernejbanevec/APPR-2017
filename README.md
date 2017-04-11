@@ -3,6 +3,7 @@
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 
 ## Tematika
+
 Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povprečno realno mesečno plačo (v določenem letu) in odločanjem parov za otroke oz nataliteto (številom, ki pove, koliko (živih) otrok se rodi v letu na tisoč prebivalcev) v določenem letu. Realno mesečno plačo bi primerjal tudi s številom splavov v določeni državi za določeno leto. Pri analizi podatkov vem, da bom moral biti pozoren na dejstvo, da se v odločitev para za otroka lahko pozna komaj naslednje leto, ko pa je povprečna realna mesečna plača lahko že drugačna. Zavedam se tudi, da obstaja možnost ničelne oz. zelo šibke korelacije med zgornjimi spremenljivkami.
 
 1. TABELA: Povprečna neto mesečna plača za določeno državo
@@ -28,13 +29,16 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 
 
 ## Podatki
-Podatki bodo za časovno obdobje od leta 1990 naprej za Evropske države, razen pri številu splavov mogoče krajše časovno obdobje (do sedaj sem dobil podatke za obdobje od 1995 do 2005). Podatke bom pa črpal iz naslednjih virov:
+
+Podatki bodo za časovno obdobje od leta 2000 do 2015 naprej za Evropske države, razen pri številu splavov mogoče krajše časovno obdobje. Podatke bom pa črpal iz naslednjih virov:
 * http://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=05J1002S&ti=&path=../Database/Dem_soc/05_prebivalstvo/30_Rodnost/05_05J10_rojeni_SL/&lang=2 (CSV)
 * http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00111&plugin=1 (CSV)
 * http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00112&plugin=1 (CSV)
 * http://data.un.org/Data.aspx?d=GenderStat&f=inID%3A12 (XML)
-* 
-
+* http://data.un.org/Data.aspx?q=abortion&d=POP&f=tableCode%3a17 (CSV)
+* http://www.un.org/esa/population/publications/2011abortion/2011abortionwallchart.html (CSV)
+* http://www.un.org/en/development/desa/population/publications/policy/world-abortion-policies-2013.shtml (CSV)
+* http://www.un.org/esa/population/publications/2007_Abortion_Policies_Chart/2007AbortionPolicies_wallchart.htm (CSV)
 
 ## Program
 
