@@ -39,6 +39,8 @@ Podatki bodo za časovno obdobje od leta 2000 do 2015 naprej za Evropske države
 * http://www.un.org/esa/population/publications/2011abortion/2011abortionwallchart.html (CSV)
 * http://www.un.org/en/development/desa/population/publications/policy/world-abortion-policies-2013.shtml (CSV)
 * http://www.un.org/esa/population/publications/2007_Abortion_Policies_Chart/2007AbortionPolicies_wallchart.htm (CSV)
+* http://stats.oecd.org/viewhtml.aspx?datasetcode=MEI_PRICES&lang=en#
+
 
 ## Program
 
