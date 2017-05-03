@@ -28,11 +28,11 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 # Obdelava, uvoz in čiščenje podatkov
 
 Pred obdelavo podatkov je potrebno imeti naložene pakete:
-*library(reshape2)
-*library(dplyr)
-*library(readr)
-*library(XML)
-*library(XML2)
+* library(reshape2)
+* library(dplyr)
+* library(readr)
+* library(XML)
+* library(XML2)
 
 ```{r uvoz, echo=FALSE, message=FALSE}
 source("uvoz/uvoz.r", encoding = "UTF-8")
