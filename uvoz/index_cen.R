@@ -23,5 +23,7 @@ consumer.price.index <- consumer.price.index %>% filter(consumer.price.index$p =
 consumer.price.index <- consumer.price.index %>% filter(consumer.price.index$ŠTA == "Index")
 consumer.price.index$p <- NULL
 consumer.price.index$ŠTA <- NULL
+consumer.price.index$`INDEX CEN` <- as.numeric(consumer.price.index$`INDEX CEN`)
+consumer.price.index$`LETO` <- as.numeric(consumer.price.index$`LETO`)
 View(consumer.price.index)
 
