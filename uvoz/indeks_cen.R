@@ -25,3 +25,21 @@ consumer.price.index$p <- NULL
 consumer.price.index$ŠTA <- NULL
 View(consumer.price.index)
 
+crude.birth.rate <- read_csv("podatki/crude_birth_rateCSV.csv", 
+                             col_names = c("LETO", "DRŽAVA", "i", "NATALITETA", "i2"), 
+                             skip = 1, na = '-')
+crude.birth.rate <- crude.birth.rate[c(2,1,4,3,5)]
+crude.birth.rate$i <-NULL 
+crude.birth.rate$i2 <-NULL 
+View(crude.birth.rate)
+
+average.annual.wage <- read_csv("podatki/average_annual_wage.csv", 
+                                col_names = c("DRŽAVA", "i1", "i2", "i3", "i4", "LETO", "POVPREČNA LETNA PLAČA (v $)", "i5"), 
+                                skip = 1, na = '-', 
+                                locale = locale(encoding = "Windows-1250"))
+average.annual.wage$i1 <- NULL
+average.annual.wage$i2 <- NULL
+average.annual.wage$i3 <- NULL
+average.annual.wage$i4 <- NULL
+average.annual.wage$i5 <- NULL
+View(average.annual.wage)
