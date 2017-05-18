@@ -32,14 +32,9 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 
 Podatki bodo za časovno obdobje od leta 2000 do 2015 naprej za Evropske države, razen pri številu splavov mogoče krajše časovno obdobje. Podatke bom pa črpal iz naslednjih virov:
 * https://data.oecd.org/earnwage/average-wages.htm (CSV)
-* http://pxweb.stat.si/pxweb/Dialog/varval.asp?ma=05J1002S&ti=&path=../Database/Dem_soc/05_prebivalstvo/30_Rodnost/05_05J10_rojeni_SL/&lang=2 (CSV)
-* http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00111&plugin=1 (CSV)
 * http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00112&plugin=1 (CSV)
 * http://data.un.org/Data.aspx?q=abortion&d=POP&f=tableCode%3a17 (XML)
-* http://www.un.org/esa/population/publications/2011abortion/2011abortionwallchart.html (CSV)
-* http://www.un.org/en/development/desa/population/publications/policy/world-abortion-policies-2013.shtml (CSV)
-* http://www.un.org/esa/population/publications/2007_Abortion_Policies_Chart/2007AbortionPolicies_wallchart.htm (CSV)
-* http://stats.oecd.org/viewhtml.aspx?datasetcode=MEI_PRICES&lang=en#
+* http://stats.oecd.org/viewhtml.aspx?datasetcode=MEI_PRICES&lang=en# (CSV)
 
 
 ## Program
