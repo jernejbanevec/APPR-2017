@@ -1,5 +1,4 @@
 library(readr)
-library(reshape2)
 library(dplyr)
 
 average.annual.wage <- read_csv("podatki/average_annual_wage.csv", 

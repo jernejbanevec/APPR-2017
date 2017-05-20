@@ -1,5 +1,4 @@
 library(readr)
-library(reshape2)
 library(dplyr)
 
 crude.birth.rate <- read_csv("podatki/crude_birth_rateCSV.csv", 
