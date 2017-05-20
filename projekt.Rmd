@@ -31,8 +31,6 @@ Pred obdelavo podatkov je potrebno imeti naložene pakete:
 * library(reshape2)
 * library(dplyr)
 * library(readr)
-* library(XML)
-* library(XML2)
 
 ```{r uvoz, echo=FALSE, message=FALSE}
 source("uvoz/index_cen.R", encoding = "UTF-8")
