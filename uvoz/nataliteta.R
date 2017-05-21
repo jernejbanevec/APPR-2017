@@ -8,4 +8,4 @@ crude.birth.rate <- read_csv("podatki/crude_birth_rateCSV.csv",
 
 crude.birth.rate$NATALITETA <- parse_number(crude.birth.rate$NATALITETA)
 crude.birth.rate$LETO <- parse_number(crude.birth.rate$LETO)
-crude.birth.rate$DRZAVA <- gsub("Germany (including former GDR)", "Germany", crude.birth.rate$DRZAVA)
+crude.birth.rate$DRZAVA <- gsub("^Germany (including former GDR)*$", "Germany", crude.birth.rate$DRZAVA)
