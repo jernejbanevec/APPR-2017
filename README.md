@@ -26,10 +26,10 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 * 2. stolpec: Leto
 * 3. stolpec ali meritev: Število splavov
 
-5. TABELA: Število prebivalcev za določeno državo
+5. TABELA: Povprečno število prebivalcev za določeno državo za določeno leto
 * 1. stolpec: Država
 * 2. stolpec: Leto
-* 3. stolpec ali meritev: Število prebivalcev
+* 3. stolpec ali meritev: Povprečno število prebivalcev
 
 ## Podatki
 
