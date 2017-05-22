@@ -117,6 +117,3 @@ average.population$DRZAVA <- gsub("^Germany.*$", "Germany", average.population$D
 average.population$POPULACIJA <-gsub(",","",average.population$POPULACIJA)
 average.population$POPULACIJA <- parse_number(average.population$POPULACIJA)
 
-#pobrišemo vrstice imajo vrednost "NA"
-row.has.na <- apply(average.population, 1, function(x){any(is.na(x))})
-average.population <- average.population[!row.has.na,]
