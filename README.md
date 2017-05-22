@@ -7,26 +7,29 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2016/17
 Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povprečno realno letno plačo (v določenem letu) in odločanjem parov za otroke oz. nataliteto naroda (številom, ki pove, koliko (živih) otrok se rodi v letu na tisoč prebivalcev) v določenem letu. Realno letno plačo bi primerjal tudi s številom splavov v določeni državi za določeno leto. Pri analizi podatkov vem, da bom moral biti pozoren na dejstvo, da se v odločitev para za otroka lahko pozna komaj naslednje leto, ko pa je povprečna realna letna plača lahko že drugačna. Zavedam se tudi, da obstaja možnost ničelne oz. zelo šibke korelacije med zgornjimi spremenljivkami.
 
 1. TABELA: Povprečna neto letna plača za določeno državo (v dolarjih)
-* 1. stolpec: Leto
-* 2. stolpec: Država
+* 1. stolpec: Država
+* 2. stolpec: Leto
 * 3. stolpec ali meritev: Povprečna neto letna plača
 
 2. TABELA: Indeks cen (consumer price index) za določeno državo
-* 1. stolpec: Leto
-* 2. stolpec: Država
+* 1. stolpec: Država
+* 2. stolpec: Leto
 * 3. stolpec ali meritev: Indeks cen
 
 3. TABELA: Nataliteta za določeno državo
-* 1. stolpec: Leto
-* 2. stolpec: Država
+* 1. stolpec: Država
+* 2. stolpec: Leto
 * 3. stolpec ali meritev: Nataliteta
 
 4. TABELA: Število splavov za določeno državo
-* 1. stolpec: Leto
-* 2. stolpec: Država
+* 1. stolpec: Država
+* 2. stolpec: Leto
 * 3. stolpec ali meritev: Število splavov
 
-
+5. TABELA: Število prebivalcev za določeno državo
+* 1. stolpec: Država
+* 2. stolpec: Leto
+* 3. stolpec ali meritev: Število prebivalcev
 
 ## Podatki
 
@@ -35,6 +38,7 @@ Podatki bodo za časovno obdobje od leta 2000 do 2015 naprej za Evropske države
 * http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tps00112&plugin=1 (CSV)
 * http://data.un.org/Data.aspx?q=abortion&d=POP&f=tableCode%3a17 (XML)
 * http://stats.oecd.org/viewhtml.aspx?datasetcode=MEI_PRICES&lang=en# (CSV)
+* http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=tps00001&language=en (CSV)
 
 
 ## Program
