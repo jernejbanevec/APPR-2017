@@ -100,6 +100,9 @@ data$i4 <- NULL
 data$LETO <- parse_number(data$LETO)
 data$`STEVILO.SPLAVOV`<- parse_number(data$`STEVILO.SPLAVOV`)
 data$DRZAVA <- gsub("United Kingdom of Great Britain and Northern Ireland", "United Kingdom", data$DRZAVA)
+data$DRZAVA <- gsub("Czechia", "Czech Republic", data$DRZAVA)
+data$DRZAVA <- gsub("Russian Federation", "Russia", data$DRZAVA)
+
 
 #tabela števila prebivalcev za določene države za določeno leto
 average.population <- read_csv("podatki/population.csv", 
@@ -107,6 +110,13 @@ average.population <- read_csv("podatki/population.csv",
                                skip = 1, na =c("", " ", "-", ":")) %>% filter(SORT.KOLICINA == "Average population - total") %>%
   select(DRZAVA, LETO, POPULACIJA)   
 
-crude.birth.rate$POPULACIJA <- parse_number(crude.birth.rate$NATALITETA)
-crude.birth.rate$LETO <- parse_number(crude.birth.rate$LETO)
-crude.birth.rate$DRZAVA <- gsub("^Germany.*$", "Germany", crude.birth.rate$DRZAVA)
+
+
+average.population$LETO <- parse_number(average.population$LETO)
+average.population$DRZAVA <- gsub("^Germany.*$", "Germany", average.population$DRZAVA)
+average.population$POPULACIJA <-gsub(",","",average.population$POPULACIJA)
+average.population$POPULACIJA <- parse_number(average.population$POPULACIJA)
+
+#pobrišemo vrstice imajo vrednost "NA"
+row.has.na <- apply(average.population, 1, function(x){any(is.na(x))})
+average.population <- average.population[!row.has.na,]

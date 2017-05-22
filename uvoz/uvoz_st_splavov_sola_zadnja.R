@@ -1,5 +1,6 @@
 library(rvest)
 library(readr)
+
 xml <- file("podatki/stevilo_splavov.xml") %>% read_xml()
 records <- xml %>% xml_nodes(xpath="//record")
 fields <- records[[1]] %>% xml_nodes(xpath="./field") %>% xml_attr("name")
@@ -11,3 +12,6 @@ data$i3 <- NULL
 data$i4 <- NULL
 data$LETO <- parse_number(data$LETO)
 data$`STEVILO.SPLAVOV`<- parse_number(data$`STEVILO.SPLAVOV`)
+data$DRZAVA <- gsub("Czechia", "Czech Republic", data$DRZAVA)
+data$DRZAVA <- gsub("Russian Federation", "Russia", data$DRZAVA)
+
