@@ -1,6 +1,146 @@
 <ROOT>
     <data>
         <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2013</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2014</field>
+            <field name="Value">6442</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2012</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2014</field>
+            <field name="Value">6755</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2011</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2014</field>
+            <field name="Value">7042</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2010</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2014</field>
+            <field name="Value">6919</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2009</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2014</field>
+            <field name="Value">8139</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2008</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2010</field>
+            <field name="Value">8335</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2007</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2008</field>
+            <field name="Value">9030</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2006</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">9552</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2005</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">9403</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2004</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">10517</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2003</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">12087</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2002</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">17500</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2001</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">17125</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
+            <field name="Country or Area">Albania</field>
+            <field name="Year">2000</field>
+            <field name="Area">Total</field>
+            <field name="Record Type">Record type not defined/applicable</field>
+            <field name="Reliability">Final figure, complete</field>
+            <field name="Source Year">2007</field>
+            <field name="Value">21004</field>
+            <field name="Value Footnotes"></field>
+        </record>
+        <record>
             <field name="Country or Area">Belarus</field>
             <field name="Year">2014</field>
             <field name="Area">Total</field>
@@ -582,52 +722,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2014</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">17037</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2014</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">4856</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2013</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">22714</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">17827</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">4887</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -642,52 +742,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">18061</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">4971</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2011</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2012</field>
             <field name="Value">24055</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">19083</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">4972</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -702,52 +762,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">18905</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">5093</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2009</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">24636</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">19604</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">5032</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -762,52 +782,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">20311</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5449</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2007</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">25414</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">20130</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">5284</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -822,52 +802,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">20152</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">5200</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2005</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">26453</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">21226</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">5227</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -882,52 +822,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">21794</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">5780</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2003</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">29298</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">23213</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">6085</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -942,26 +842,6 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">24869</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">6273</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2001</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -972,52 +852,12 @@
         </record>
         <record>
             <field name="Country or Area">Czechia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">25814</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">6714</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
             <field name="Year">2000</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">34623</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">27314</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Czechia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">7309</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -1182,52 +1022,12 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2014</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">3804</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2014</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">1350</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2013</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">5777</field>
-            <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">4320</field>
-            <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">1457</field>
             <field name="Value Footnotes">2</field>
         </record>
         <record>
@@ -1242,26 +1042,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">4474</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">1581</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2011</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1269,26 +1049,6 @@
             <field name="Source Year">2012</field>
             <field name="Value">6668</field>
             <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">4919</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">1748</field>
-            <field name="Value Footnotes">2,3</field>
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
@@ -1302,26 +1062,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">5102</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">1963</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2009</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1332,52 +1072,12 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">5661</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">1880</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2008</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">8409</field>
-            <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">6203</field>
-            <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2206</field>
             <field name="Value Footnotes">2</field>
         </record>
         <record>
@@ -1392,26 +1092,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">6624</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">2254</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2006</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1419,26 +1099,6 @@
             <field name="Source Year">2007</field>
             <field name="Value">9378</field>
             <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">7064</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2298</field>
-            <field name="Value Footnotes">2,3</field>
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
@@ -1452,26 +1112,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">7356</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2207</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2004</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1479,26 +1119,6 @@
             <field name="Source Year">2007</field>
             <field name="Value">10074</field>
             <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">7673</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2395</field>
-            <field name="Value Footnotes">2,3</field>
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
@@ -1512,26 +1132,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">8116</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2491</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2002</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1539,26 +1139,6 @@
             <field name="Source Year">2007</field>
             <field name="Value">10834</field>
             <field name="Value Footnotes">2</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">8233</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2582</field>
-            <field name="Value Footnotes">2,3</field>
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
@@ -1572,26 +1152,6 @@
         </record>
         <record>
             <field name="Country or Area">Estonia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">8942</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2670</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
             <field name="Year">2000</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -1601,26 +1161,6 @@
             <field name="Value Footnotes">2</field>
         </record>
         <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">9739</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
-            <field name="Country or Area">Estonia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">2959</field>
-            <field name="Value Footnotes">2,3</field>
-        </record>
-        <record>
             <field name="Country or Area">Finland</field>
             <field name="Year">2014</field>
             <field name="Area">Total</field>
@@ -1628,27 +1168,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">9714</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2014</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">7614</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2014</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2100</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1658,27 +1178,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10060</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">7885</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2175</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1688,27 +1188,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10177</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">7831</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2346</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1718,27 +1198,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10622</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8306</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2316</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1748,27 +1208,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10231</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8007</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2224</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1778,27 +1218,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10437</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8160</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2277</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1808,27 +1228,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10414</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8120</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2294</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1838,27 +1238,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10507</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8181</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2326</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1868,27 +1248,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10636</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8266</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2370</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1898,27 +1258,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10904</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8476</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2428</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1928,27 +1268,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">11107</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">8650</field>
-            <field name="Value Footnotes">4</field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">2457</field>
-            <field name="Value Footnotes">4</field>
+            <field name="Value Footnotes">3</field>
         </record>
         <record>
             <field name="Country or Area">Finland</field>
@@ -1958,26 +1278,6 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">10767</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8347</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2420</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -1992,52 +1292,12 @@
         </record>
         <record>
             <field name="Country or Area">Finland</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8441</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2533</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
             <field name="Year">2001</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">10738</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8229</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2509</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -2051,26 +1311,6 @@
             <field name="Value Footnotes"></field>
         </record>
         <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8403</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Finland</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2529</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
             <field name="Country or Area">France</field>
             <field name="Year">2012</field>
             <field name="Area">Total</field>
@@ -2078,7 +1318,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">205300</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2088,7 +1328,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">206888</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2098,7 +1338,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">211248</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2108,7 +1348,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">208662</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2118,7 +1358,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">208003</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2128,7 +1368,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">212050</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2138,7 +1378,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">213983</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2148,7 +1388,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">205392</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2158,7 +1398,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">209907</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2168,7 +1408,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">202591</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2178,7 +1418,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">205898</field>
-            <field name="Value Footnotes">5</field>
+            <field name="Value Footnotes">4</field>
         </record>
         <record>
             <field name="Country or Area">France</field>
@@ -2412,26 +1652,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2014</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">21497</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2014</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">11158</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2013</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2439,26 +1659,6 @@
             <field name="Source Year">2014</field>
             <field name="Value">34891</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">22852</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">12037</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2472,26 +1672,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">23827</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">12288</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2011</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2499,26 +1679,6 @@
             <field name="Source Year">2012</field>
             <field name="Value">38443</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">25660</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">12777</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2532,26 +1692,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">26906</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">13527</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2009</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2559,26 +1699,6 @@
             <field name="Source Year">2010</field>
             <field name="Value">43181</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">28543</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">14620</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2592,26 +1712,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">29093</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">14983</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2007</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2619,26 +1719,6 @@
             <field name="Source Year">2008</field>
             <field name="Value">43870</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">29109</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">14736</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2652,26 +1732,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">30733</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">15394</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2005</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2679,26 +1739,6 @@
             <field name="Source Year">2006</field>
             <field name="Value">48689</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">31963</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2006</field>
-            <field name="Value">16610</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2712,26 +1752,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">33917</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">18556</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2003</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2739,26 +1759,6 @@
             <field name="Source Year">2004</field>
             <field name="Value">53789</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2004</field>
-            <field name="Value">34890</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2004</field>
-            <field name="Value">18007</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
@@ -2772,26 +1772,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2004</field>
-            <field name="Value">36319</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2004</field>
-            <field name="Value">18469</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2001</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2802,26 +1782,6 @@
         </record>
         <record>
             <field name="Country or Area">Hungary</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2002</field>
-            <field name="Value">36295</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2002</field>
-            <field name="Value">18855</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
             <field name="Year">2000</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -2829,26 +1789,6 @@
             <field name="Source Year">2001</field>
             <field name="Value">59249</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2001</field>
-            <field name="Value">38531</field>
-            <field name="Value Footnotes">6</field>
-        </record>
-        <record>
-            <field name="Country or Area">Hungary</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2001</field>
-            <field name="Value">19803</field>
-            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Iceland</field>
@@ -3028,7 +1968,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">103191</field>
-            <field name="Value Footnotes">7</field>
+            <field name="Value Footnotes">5</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3038,7 +1978,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">110041</field>
-            <field name="Value Footnotes">8</field>
+            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3048,7 +1988,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">112463</field>
-            <field name="Value Footnotes">8</field>
+            <field name="Value Footnotes">6</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3058,7 +1998,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">114793</field>
-            <field name="Value Footnotes">9</field>
+            <field name="Value Footnotes">7</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3068,7 +2008,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">118891</field>
-            <field name="Value Footnotes">10</field>
+            <field name="Value Footnotes">8</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3078,7 +2018,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">125116</field>
-            <field name="Value Footnotes">11</field>
+            <field name="Value Footnotes">9</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3088,7 +2028,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">125782</field>
-            <field name="Value Footnotes">12</field>
+            <field name="Value Footnotes">10</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3098,7 +2038,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">129272</field>
-            <field name="Value Footnotes">13</field>
+            <field name="Value Footnotes">11</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3108,7 +2048,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">137140</field>
-            <field name="Value Footnotes">14</field>
+            <field name="Value Footnotes">12</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3118,7 +2058,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2005</field>
             <field name="Value">124118</field>
-            <field name="Value Footnotes">15</field>
+            <field name="Value Footnotes">13</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3128,7 +2068,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2004</field>
             <field name="Value">131039</field>
-            <field name="Value Footnotes">15</field>
+            <field name="Value Footnotes">13</field>
         </record>
         <record>
             <field name="Country or Area">Italy</field>
@@ -3148,376 +2088,6 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">134740</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2014</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">5318</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">5557</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">6197</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">7089</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">7443</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">5102</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">2341</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">8881</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">6127</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">2754</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">10425</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">7451</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">2974</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">11814</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">8816</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">2998</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">11825</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">8620</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">3205</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2006</field>
-            <field name="Value">12785</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2006</field>
-            <field name="Value">9246</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2006</field>
-            <field name="Value">3539</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">13723</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">10137</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">3586</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">14508</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">10686</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2005</field>
-            <field name="Value">3822</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2004</field>
-            <field name="Value">14685</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">10880</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">3805</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2002</field>
-            <field name="Value">15647</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2002</field>
-            <field name="Value">11657</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2002</field>
-            <field name="Value">3990</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Total</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2001</field>
-            <field name="Value">17240</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2001</field>
-            <field name="Value">12807</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Latvia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2001</field>
-            <field name="Value">4433</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -3648,7 +2218,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2016</field>
             <field name="Value">970</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3658,7 +2228,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">745</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3668,7 +2238,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">752</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3678,7 +2248,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2012</field>
             <field name="Value">669</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3688,7 +2258,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">644</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3698,7 +2268,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">538</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3708,7 +2278,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">506</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3718,7 +2288,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">328</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3728,7 +2298,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">339</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3738,7 +2308,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">225</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3748,7 +2318,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">199</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3758,7 +2328,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">174</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3768,7 +2338,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">159</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3778,7 +2348,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">123</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Poland</field>
@@ -3788,7 +2358,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">138</field>
-            <field name="Value Footnotes">16</field>
+            <field name="Value Footnotes">14</field>
         </record>
         <record>
             <field name="Country or Area">Portugal</field>
@@ -3952,52 +2522,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2014</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">39956</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2014</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2015</field>
-            <field name="Value">38415</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2013</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">86432</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">43689</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">42743</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4012,52 +2542,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">44929</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">43046</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2011</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2012</field>
             <field name="Value">103386</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">53146</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">50240</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4072,52 +2562,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">49310</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">52605</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2009</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">116060</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">56968</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">59092</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4132,52 +2582,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">66325</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">61582</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2007</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">137226</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">70284</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">66942</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4192,52 +2602,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">77809</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">72437</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2005</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">163359</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">81309</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">82050</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4252,52 +2622,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">96465</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">94573</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2003</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">224803</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">114259</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2008</field>
-            <field name="Value">110544</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4312,26 +2642,6 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2003</field>
-            <field name="Value">128678</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2003</field>
-            <field name="Value">118930</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2001</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -4342,52 +2652,12 @@
         </record>
         <record>
             <field name="Country or Area">Romania</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">129003</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">125852</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
             <field name="Year">2000</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">257865</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">128594</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Romania</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2007</field>
-            <field name="Value">129271</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4528,7 +2798,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">22867</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4538,7 +2808,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">24273</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4548,7 +2818,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2007</field>
             <field name="Value">25665</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4558,7 +2828,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2006</field>
             <field name="Value">26645</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4568,7 +2838,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">29650</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4578,7 +2848,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">29856</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4588,7 +2858,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">30794</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4598,7 +2868,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">34255</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Serbia</field>
@@ -4608,7 +2878,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2008</field>
             <field name="Value">42322</field>
-            <field name="Value Footnotes">17,18</field>
+            <field name="Value Footnotes">15,16</field>
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
@@ -4632,52 +2902,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">7321</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">3784</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2012</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">11214</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">7547</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">3667</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4692,52 +2922,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">7806</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2012</field>
-            <field name="Value">3983</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2010</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">12582</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">8300</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2011</field>
-            <field name="Value">4282</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4752,52 +2942,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">8555</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2010</field>
-            <field name="Value">4685</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2008</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">13394</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8074</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5320</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4812,52 +2962,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8085</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2007</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5339</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2006</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">14243</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8640</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5603</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4872,52 +2982,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">8908</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5519</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2004</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">15307</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">9593</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5714</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4932,52 +3002,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">10337</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">5885</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2002</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">17382</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">11119</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">6263</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -4992,52 +3022,12 @@
         </record>
         <record>
             <field name="Country or Area">Slovakia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">11552</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">6474</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
             <field name="Year">2000</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2009</field>
             <field name="Value">18468</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">12036</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Slovakia</field>
-            <field name="Year">2000</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2009</field>
-            <field name="Value">6432</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -5438,7 +3428,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">9990</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5448,7 +3438,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10177</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5458,7 +3448,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2015</field>
             <field name="Value">10531</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5468,7 +3458,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">10715</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5478,7 +3468,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2012</field>
             <field name="Value">10650</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5488,7 +3478,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2011</field>
             <field name="Value">10187</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5498,7 +3488,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">10310</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5508,7 +3498,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">10035</field>
-            <field name="Value Footnotes">19</field>
+            <field name="Value Footnotes">17</field>
         </record>
         <record>
             <field name="Country or Area">Switzerland</field>
@@ -5588,7 +3578,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2016</field>
             <field name="Value">116104</field>
-            <field name="Value Footnotes">20</field>
+            <field name="Value Footnotes">18</field>
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
@@ -5598,26 +3588,6 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">147736</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2013</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">110330</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2013</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">37406</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -5632,52 +3602,12 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2012</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">114730</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2012</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">38417</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2011</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">169131</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2011</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">126424</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2011</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">42707</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -5692,26 +3622,6 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2010</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">132683</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2010</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">44091</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2009</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -5722,52 +3632,12 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2009</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">146979</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2009</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">47866</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2008</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">217413</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2008</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">164527</field>
-            <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2008</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">52886</field>
             <field name="Value Footnotes"></field>
         </record>
         <record>
@@ -5788,27 +3658,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2014</field>
             <field name="Value">229618</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2006</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">171692</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2006</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">57926</field>
-            <field name="Value Footnotes">21</field>
+            <field name="Value Footnotes">19</field>
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
@@ -5822,26 +3672,6 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2005</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">180276</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2005</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">62067</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2004</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -5849,26 +3679,6 @@
             <field name="Source Year">2014</field>
             <field name="Value">289065</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2004</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">199102</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2004</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">64972</field>
-            <field name="Value Footnotes">21</field>
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
@@ -5882,26 +3692,6 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2003</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">221315</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2003</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">71301</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2002</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -5912,26 +3702,6 @@
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
-            <field name="Year">2002</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">241951</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2002</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2013</field>
-            <field name="Value">81392</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
             <field name="Year">2001</field>
             <field name="Area">Total</field>
             <field name="Record Type">Record type not defined/applicable</field>
@@ -5939,26 +3709,6 @@
             <field name="Source Year">2012</field>
             <field name="Value">369750</field>
             <field name="Value Footnotes"></field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2001</field>
-            <field name="Area">Urban</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">257865</field>
-            <field name="Value Footnotes">21</field>
-        </record>
-        <record>
-            <field name="Country or Area">Ukraine</field>
-            <field name="Year">2001</field>
-            <field name="Area">Rural</field>
-            <field name="Record Type">Record type not defined/applicable</field>
-            <field name="Reliability">Final figure, complete</field>
-            <field name="Source Year">2014</field>
-            <field name="Value">88567</field>
-            <field name="Value Footnotes">21</field>
         </record>
         <record>
             <field name="Country or Area">Ukraine</field>
@@ -5978,7 +3728,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">203419</field>
-            <field name="Value Footnotes">22,23,24</field>
+            <field name="Value Footnotes">20,21,22</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -5988,7 +3738,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">208636</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -5998,7 +3748,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">209048</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6008,7 +3758,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">208854</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6018,7 +3768,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">216062</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6028,7 +3778,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">219376</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6038,7 +3788,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">214340</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6048,7 +3798,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">207018</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6058,7 +3808,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">206960</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6068,7 +3818,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">202968</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6078,7 +3828,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2013</field>
             <field name="Value">197255</field>
-            <field name="Value Footnotes">22,23</field>
+            <field name="Value Footnotes">20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6088,7 +3838,7 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2012</field>
             <field name="Value">188492</field>
-            <field name="Value Footnotes">2,22,23</field>
+            <field name="Value Footnotes">2,20,21</field>
         </record>
         <record>
             <field name="Country or Area">United Kingdom of Great Britain and Northern Ireland</field>
@@ -6098,33 +3848,31 @@
             <field name="Reliability">Final figure, complete</field>
             <field name="Source Year">2010</field>
             <field name="Value">187539</field>
-            <field name="Value Footnotes">2,22,23</field>
+            <field name="Value Footnotes">2,20,21</field>
         </record>
     </data>
     <footnotes>
         <footnote footnoteSeqID="1">Excluding Faeroe Islands and Greenland shown separately, if available.</footnote>
         <footnote footnoteSeqID="2">Data refer to resident population only.</footnote>
-        <footnote footnoteSeqID="3">The total number may include 'Unknown residence', but the categories urban and rural do not.</footnote>
-        <footnote footnoteSeqID="4">Excluding Åland Islands.</footnote>
-        <footnote footnoteSeqID="5">Data refer to women between 15 and 49 years of age.</footnote>
-        <footnote footnoteSeqID="6">The urban and rural categories do not  include the data of foreigners, persons of unknown residence and the homeless, whereas the total category includes them.</footnote>
-        <footnote footnoteSeqID="7">Data are incomplete for Umbria, Abruzzo, Campania, Puglia and Sicilia regions.</footnote>
-        <footnote footnoteSeqID="8">Data are incomplete for Umbria, Campania and Sicilia regions.</footnote>
-        <footnote footnoteSeqID="9">Data are incomplete for Abruzzo, Campania, Basilicata, Sicilia and Sardegna regions.</footnote>
-        <footnote footnoteSeqID="10">Data are incomplete for Campania, Calabria, Sicilia and Sardegna regions.</footnote>
-        <footnote footnoteSeqID="11">Data are incomplete for Campania and Sicilia regions.</footnote>
-        <footnote footnoteSeqID="12">Data are incomplete for Friuli-Venezia Giulia, Campania and Sicilia regions.</footnote>
-        <footnote footnoteSeqID="13">Data are incomplete for Friuli-Venezia Giulia, Campania, Molise and Sicilia regions.</footnote>
-        <footnote footnoteSeqID="14">Data are incomplete for Sicilia region.</footnote>
-        <footnote footnoteSeqID="15">Data are incomplete for Campania region.</footnote>
-        <footnote footnoteSeqID="16">Based on hospital and polyclinic records.</footnote>
-        <footnote footnoteSeqID="17">Data refer to institutions included in the Health Institutions Network Plan in the Republic of Serbia.</footnote>
-        <footnote footnoteSeqID="18">Excludes data for Kosovo and Metohia.</footnote>
-        <footnote footnoteSeqID="19">Data refer to termination of pregnancy for women who are Switzerland residents.</footnote>
-        <footnote footnoteSeqID="20">The Government of Ukraine has informed the United Nations that it is not in a position to provide statistical data concerning the Autonomous Republic of Crimea and the city of Sevastopol.</footnote>
-        <footnote footnoteSeqID="21">Data refer to the recorded events in Ministry of Health institutions only.</footnote>
-        <footnote footnoteSeqID="22">Excluding Channel Islands (Guernsey and Jersey) and Isle of Man, shown separately, if available.</footnote>
-        <footnote footnoteSeqID="23">Excluding Northern Ireland.</footnote>
-        <footnote footnoteSeqID="24">Including provisional data for Scotland.</footnote>
+        <footnote footnoteSeqID="3">Excluding Åland Islands.</footnote>
+        <footnote footnoteSeqID="4">Data refer to women between 15 and 49 years of age.</footnote>
+        <footnote footnoteSeqID="5">Data are incomplete for Umbria, Abruzzo, Campania, Puglia and Sicilia regions.</footnote>
+        <footnote footnoteSeqID="6">Data are incomplete for Umbria, Campania and Sicilia regions.</footnote>
+        <footnote footnoteSeqID="7">Data are incomplete for Abruzzo, Campania, Basilicata, Sicilia and Sardegna regions.</footnote>
+        <footnote footnoteSeqID="8">Data are incomplete for Campania, Calabria, Sicilia and Sardegna regions.</footnote>
+        <footnote footnoteSeqID="9">Data are incomplete for Campania and Sicilia regions.</footnote>
+        <footnote footnoteSeqID="10">Data are incomplete for Friuli-Venezia Giulia, Campania and Sicilia regions.</footnote>
+        <footnote footnoteSeqID="11">Data are incomplete for Friuli-Venezia Giulia, Campania, Molise and Sicilia regions.</footnote>
+        <footnote footnoteSeqID="12">Data are incomplete for Sicilia region.</footnote>
+        <footnote footnoteSeqID="13">Data are incomplete for Campania region.</footnote>
+        <footnote footnoteSeqID="14">Based on hospital and polyclinic records.</footnote>
+        <footnote footnoteSeqID="15">Excludes data for Kosovo and Metohia.</footnote>
+        <footnote footnoteSeqID="16">Data refer to institutions included in the Health Institutions Network Plan in the Republic of Serbia.</footnote>
+        <footnote footnoteSeqID="17">Data refer to termination of pregnancy for women who are Switzerland residents.</footnote>
+        <footnote footnoteSeqID="18">The Government of Ukraine has informed the United Nations that it is not in a position to provide statistical data concerning the Autonomous Republic of Crimea and the city of Sevastopol.</footnote>
+        <footnote footnoteSeqID="19">Data refer to the recorded events in Ministry of Health institutions only.</footnote>
+        <footnote footnoteSeqID="20">Excluding Channel Islands (Guernsey and Jersey) and Isle of Man, shown separately, if available.</footnote>
+        <footnote footnoteSeqID="21">Excluding Northern Ireland.</footnote>
+        <footnote footnoteSeqID="22">Including provisional data for Scotland.</footnote>
     </footnotes>
 </ROOT>
