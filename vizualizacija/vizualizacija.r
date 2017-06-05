@@ -35,13 +35,6 @@ real.wage <- sestavljen.data.frame %>%
   group_by(DRZAVA, LETO) %>% 
   summarise(REALNA.PLACA = POVPRECNA.LETNA.PLACA / INDEX.CEN * 100)
 
-#oznake na zemljevidu, katerih velikost pove realno plačo in barva število novorojenih otrok
-
-
-
-
-
-
 
 
 #NOMINALNO STEVILO SPLAVOV NA 1000 PREBIVALCEV (zaenkrat zgolj podatki)
@@ -57,7 +50,35 @@ nominalno.stevilo.splavov <- zdruzeno %>%
   group_by(DRZAVA, LETO) %>% 
   summarise(NOM.STEVILO.SPLAVOV = STEVILO.SPLAVOV / POPULACIJA * 1000)
 
-#graf, ki pokaže število splavov na 1000 prebivalcev za določene države
+#graf, ki pokaže število splavov na 1000 prebivalcev za izbrane države
 
-ggplot(data = nominalno.stevilo.splavov %>% filter(DRZAVA %in% c("Portugal", "Slovenia", "Poland", "Romania")), aes(x = LETO, y = NOM.STEVILO.SPLAVOV)) + geom_line(col="red") + facet_wrap(~DRZAVA, ncol=4)
+splavi <- ggplot(data = nominalno.stevilo.splavov %>% filter(DRZAVA %in% c("Portugal", "Slovenia", "Poland", "Romania")), aes(x = LETO, y = NOM.STEVILO.SPLAVOV)) + geom_point() + geom_line(col="red") + facet_wrap(~DRZAVA, ncol=4)
 
+#graf, ki pokaže spreminjanje realne plače za Grčijo in Španijo, katere imata trenutno slabo finančno stanje ter Švico 
+
+rojstva <- ggplot(data = crude.birth.rate %>% filter(DRZAVA %in% c("Greece", "Spain", "Switzerland")), aes(x = LETO, y = NATALITETA)) + geom_point() + geom_line(col="red") + facet_wrap(~DRZAVA, ncol=3)
+
+#oznake na zemljevidu, katerih velikost pove realno plačo in barva število splavljenih otrok
+
+ggplot() + geom_polygon(data = evropa %>%
+                          left_join(nominalno.stevilo.splavov %>% filter(LETO == 2005),
+                                    by = c("name_long" = "DRZAVA")),
+                        aes(x = long, y = lat, group = group, fill = NOM.STEVILO.SPLAVOV)) +
+  geom_point(data = evropa %>% filter(long >= -25, long <= 40, lat >= 32, lat <= 79) %>%
+               group_by(name_long) %>% summarise(x = mean(long), y= mean(lat)) %>%
+               inner_join(real.wage %>% filter(LETO == 2005), by = c("name_long" = "DRZAVA")),
+             aes(x = x, y = y, size = REALNA.PLACA))+
+  coord_map(xlim = c(-25, 40), ylim = c(32, 72))
+
+
+#oznake na zemljevidu, katerih velikost pove realno plačo in število novorojenih otrok
+
+ggplot() + geom_polygon(data = evropa %>%
+                          left_join(crude.birth.rate %>% filter(LETO == 2005),
+                                    by = c("name_long" = "DRZAVA")),
+                        aes(x = long, y = lat, group = group, fill = NATALITETA)) +
+  geom_point(data = evropa %>% filter(long >= -25, long <= 40, lat >= 32, lat <= 79) %>%
+               group_by(name_long) %>% summarise(x = mean(long), y= mean(lat)) %>%
+               inner_join(real.wage %>% filter(LETO == 2005), by = c("name_long" = "DRZAVA")),
+             aes(x = x, y = y, size = REALNA.PLACA))+
+  coord_map(xlim = c(-25, 40), ylim = c(32, 72))
