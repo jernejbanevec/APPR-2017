@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Analiza povezanosti med rodnostjo in višino plače"
 author: "Jernej Banevec"
 output:
   html_document: default
@@ -33,17 +33,14 @@ Pred obdelavo podatkov je potrebno imeti naložene pakete:
 * library(readr)
 
 ```{r uvoz, echo=FALSE, message=FALSE}
-source("uvoz/index_cen.R", encoding = "UTF-8")
-source("uvoz/nataliteta.R", encoding = "UTF-8")
-source("uvoz/povprečna_letna_plača.R", encoding = "UTF-8")
-source("uvoz/uvoz_st_splavov_sola.R", encoding = "UTF-8")
+source("uvoz/uvoz.r", encoding = "UTF-8")
 ```
 
 Uvozil sem podatke iz Eurostata ter iz OECD-ja v podatkovni obliki CSV, ter v želji po poznavanju tudi drugih podatkovnih oblik še iz spletne strani UNData v obliki XML, pri obdelavi katerih imam še nekaj težav (podatke bi sicer lahko pobral tudi v CSV obliki in bi bilo delo lažje). Začetna stanja podatkov v obliki CSV ter XML so dostopna v mapi podatki, v mapi uvoz pa so kode za oblikovanje tidy data za vse podatke v obliki CSV, ter pozneje tudi za podatke v obliki XML.
 
 Oblike tabel ter spremenljivke sem že povzel v mapi README.
 
-``{r razpredelnice}
+```{r razpredelnice}
 kable(head(druzine))
 head(obcine)
 ```
