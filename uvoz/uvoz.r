@@ -75,13 +75,17 @@ average.annual.wage <- read_csv("podatki/average_annual_wage.csv",
 average.annual.wage$`LETO` <- parse_number(average.annual.wage$`LETO`)
 average.annual.wage$`POVPRECNA.LETNA.PLACA`<- parse_number(average.annual.wage$`POVPRECNA.LETNA.PLACA`)
 
+
 #tabela natalitete (število rojenih na 1000 ljudi)
 crude.birth.rate <- read_csv("podatki/crude_birth_rateCSV.csv", 
                              col_names = c("LETO", "DRZAVA", "i", "NATALITETA", "i2"), 
                              skip = 1, na =c("", " ", "-", ":")) %>%
-  select(DRZAVA, LETO, NATALITETA)
+  select(DRZAVA, LETO, NATALITETA)   
+
 crude.birth.rate$NATALITETA <- parse_number(crude.birth.rate$NATALITETA)
 crude.birth.rate$LETO <- parse_number(crude.birth.rate$LETO)
+crude.birth.rate$DRZAVA <- gsub("^Germany.*$", "Germany", crude.birth.rate$DRZAVA)
+
 
 #tabela števila splavov za določene države
 xml <- file("podatki/stevilo_splavov.xml") %>% read_xml()
@@ -95,3 +99,21 @@ data$i3 <- NULL
 data$i4 <- NULL
 data$LETO <- parse_number(data$LETO)
 data$`STEVILO.SPLAVOV`<- parse_number(data$`STEVILO.SPLAVOV`)
+data$DRZAVA <- gsub("United Kingdom of Great Britain and Northern Ireland", "United Kingdom", data$DRZAVA)
+data$DRZAVA <- gsub("Czechia", "Czech Republic", data$DRZAVA)
+data$DRZAVA <- gsub("Russian Federation", "Russia", data$DRZAVA)
+
+
+#tabela števila prebivalcev za določene države za določeno leto
+average.population <- read_csv("podatki/population.csv", 
+                               col_names = c("LETO", "DRZAVA", "SORT.KOLICINA", "POPULACIJA", "i"), 
+                               skip = 1, na =c("", " ", "-", ":")) %>% filter(SORT.KOLICINA == "Average population - total") %>%
+  select(DRZAVA, LETO, POPULACIJA)   
+
+
+
+average.population$LETO <- parse_number(average.population$LETO)
+average.population$DRZAVA <- gsub("^Germany.*$", "Germany", average.population$DRZAVA)
+average.population$POPULACIJA <-gsub(",","",average.population$POPULACIJA)
+average.population$POPULACIJA <- parse_number(average.population$POPULACIJA)
+
