@@ -57,5 +57,7 @@ nominalno.stevilo.splavov <- zdruzeno %>%
   group_by(DRZAVA, LETO) %>% 
   summarise(NOM.STEVILO.SPLAVOV = STEVILO.SPLAVOV / POPULACIJA * 1000)
 
-#graf, ki prikazuje realno plačo za izbrane države
-ggplot(data = real.wage %>% filter(DRZAVA == "Slovenia"), aes(x = LETO, y = REALNA.PLACA)) + geom_histogram()
+#graf, ki pokaže število splavov na 1000 prebivalcev za določene države
+
+ggplot(data = nominalno.stevilo.splavov %>% filter(DRZAVA %in% c("Portugal", "Slovenia", "Poland", "Romania")), aes(x = LETO, y = NOM.STEVILO.SPLAVOV)) + geom_line(col="red") + facet_wrap(~DRZAVA, ncol=4)
+
