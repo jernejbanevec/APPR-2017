@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Analiza povezanosti med rodnostjo in višino plače"
 author: "Jernej Banevec"
 output:
   html_document: default
@@ -43,7 +43,7 @@ Uvozil sem podatke iz Eurostata ter iz OECD-ja v podatkovni obliki CSV, ter v ž
 
 Oblike tabel ter spremenljivke sem že povzel v mapi README.
 
-``{r razpredelnice}
+```{r razpredelnice}
 kable(head(druzine))
 head(obcine)
 ```
