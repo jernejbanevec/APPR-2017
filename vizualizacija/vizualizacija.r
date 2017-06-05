@@ -3,6 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(readr)
 library(tibble)
+library(mapproj)
 
 #Uvozimo ZEMLJEVID
 
@@ -12,8 +13,14 @@ evropa <- uvozi.zemljevid("http://www.naturalearthdata.com/http//www.naturaleart
                                   long > -30, sovereignt != "Russia")
 
 #prikaz zemljevida brez podatkov in oznak
+
 ggplot() +  geom_polygon(data = evropa, aes(x = long, y = lat, group = group)) +
   coord_map(xlim = c(-25, 40), ylim = c(32, 72))
+
+
+#poskrbim da se ujemajo imena
+
+evropa$name_sort <- gsub("^Slovak Republic$", "Slovakia", evropa$name_sort) %>% factor() #zemljevid
 
 # REALNA PLACA ZA DOLOČENO DRZAVO NA DOLOCENO LETO GLEDE NA DEN INDEX CEN (zaenkrat zgolj podatki)
 
@@ -27,6 +34,11 @@ sestavljen.data.frame <- sestavljen.data.frame[!row.has.na,]
 real.wage <- sestavljen.data.frame %>% 
   group_by(DRZAVA, LETO) %>% 
   summarise(REALNA.PLACA = POVPRECNA.LETNA.PLACA / INDEX.CEN * 100)
+
+#oznake na zemljevidu, katerih velikost pove realno plačo in barva število novorojenih otrok
+
+
+
 
 
 
@@ -44,3 +56,6 @@ zdruzeno <- zdruzeno[!row.has.na,]
 nominalno.stevilo.splavov <- zdruzeno %>% 
   group_by(DRZAVA, LETO) %>% 
   summarise(NOM.STEVILO.SPLAVOV = STEVILO.SPLAVOV / POPULACIJA * 1000)
+
+#graf, ki prikazuje realno plačo za izbrane države
+ggplot(data = real.wage %>% filter(DRZAVA == "Slovenia"), aes(x = LETO, y = REALNA.PLACA)) + geom_histogram()
