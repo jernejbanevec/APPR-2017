@@ -10,7 +10,7 @@ output:
 runtime: shiny
 ---
 
-```{r setup, echo=FALSE, results='hide', message=FALSE}
+```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 # Če želimo nastaviti pisave v PDF-ju, odkomentiramo
 # in sledimo navodilom v programu.
 #source("fontconfig.r", encoding = "UTF-8")
@@ -27,69 +27,67 @@ Za tematiko svojega projekta sem izbral analizo morebitne povezanosti med povpre
 
 # Obdelava, uvoz in čiščenje podatkov
 
-Pred obdelavo podatkov je potrebno imeti naložene pakete:
-* library(reshape2)
-* library(dplyr)
-* library(readr)
 
-```{r uvoz, echo=FALSE, message=FALSE}
+```{r uvoz, echo=FALSE, message=FALSE, warning=FALSE}
 source("uvoz/uvoz.r", encoding = "UTF-8")
 ```
 
 Uvozil sem podatke iz Eurostata ter iz OECD-ja v podatkovni obliki CSV, ter v želji po poznavanju tudi drugih podatkovnih oblik še iz spletne strani UNData v obliki XML. Začetna stanja podatkov v obliki CSV ter XML so dostopna v mapi podatki, v mapi uvoz pa so kode za oblikovanje tidy data za vse podatke v obliki CSV, ter tudi za podatke v obliki XML.
 
-Oblike tabel ter spremenljivke sem že povzel v mapi README.
+Oblike tabel ter spremenljivke sem že povzel v mapi README. Sestavil sem pa tudi 2dve novi tabeli, ki sem ju uporabil pri vizualizaciji. Ti dve tabeli imata naslednjo obliko:
+
+6. TABELA: Povprečna REALNA neto letna plača za določeno državo (v dolarjih)
+* 1. stolpec: Država
+* 2. stolpec: Leto
+* 3. stolpec ali meritev: Povprečna realna neto letna plača
+
+7. TABELA: Število splavov na 1000 prebivalcev za določeno državo
+* 1. stolpec: Država
+* 2. stolpec: Leto
+* 3. stolpec ali meritev: Število splavov na 1000 prebivalcev za določeno državo
+
 
 ```{r razpredelnice}
-head(real.wage)
+kable(head(real.wage))
+
+kable(head(nominalno.stevilo.splavov))
 ```
 
-Slika \ref{fig:histogram} prikazuje porazdelitev števila naselij v občinah.
+Pri tabeli "Povprečna REALNA neto letna plača za določeno državo (v dolarjih)" sem neto plačo delil z indeksom cen za tisto leto, kjer je indeks normiran glede na referenčno leto 2010 za določeno državo. Tako da prikazuje spreminanje za posamezno državo.
 
-```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
-ggplot(obcine, aes(x = naselja)) + geom_histogram() +
-  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
-```
 
-***
+# Vizualizacija
 
-# Analiza in vizualizacija podatkov
-
-```{r vizualizacija, echo=FALSE, message=FALSE}
+```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE}
 source("vizualizacija/vizualizacija.r", encoding = "UTF-8")
 ```
 
-Slika \ref{fig:zemljevid} prikazuje povprečno velikost družine za vsako občino.
 
-```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-ggplot() + geom_polygon(data = left_join(zemljevid, povprecja, by = c("OB_UIME" = "obcina")),
-                        aes(x = long, y = lat, group = group, fill = povprecje)) +
-  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
-  guides(fill = guide_colorbar(title = "Povprečje"))
+PRVI GRAF
+```{r}
+print(rojstva)
 ```
 
-***
+Pri nataliteti oziroma številu novorojenih otrok na 1000 preivalcev sem bil najbolj pozoren na države, ki so trenutno v gospodarski krizi. Evropska država, ki je zadnja leta v najhujši gospodarski krizi je Grčija, kjer lahko opazimo velik upad rojstev vse od konca prejšnjega desetletja naprej (natančneje od leta 2008, ki predstavlja začetek gospodarske krize). Podoben upad opazimo tudi pri Španiji. Ko nasproten primer Grčiji in Španiji pa lahko opazimo Švico, kjer se število rojstev skozi zadnja leta povečuje. Mogoč vzrok za to je tudi to, da velja Švica za eno gospodarsko stabilnejših držav.
 
-# Napredna analiza podatkov
-
-```{r analiza, echo=FALSE, message=FALSE}
-source("analiza/analiza.r", encoding = "UTF-8")
+DRUGI GRAF
+```{r}
+print(splavi)
 ```
 
-Slika \ref{fig:graf} prikazuje povezavo med številom naselij in površino občine.
+Število splavov se iz države v državo precej spreminja. Na Poljskem, so splavi prepovedani, razen v primeru posebnih razmer, kot je naprimer posilstvo, nepopravljivo poškodovan zarodek in podobno. Prvotno so bili tudi na Portugalskem splavi prepovedani, nato pa je leta 2007 bila sprejeta sprememba zakona, ki je dovoljevala splave ženskam, ki še niso v desetem mesecu nosečnosti. Na splošno pa velja tendenca upadanja števila splavov za razvite države, kar je mogoče opaziti tudi pri Sloveniji. Največji upad pa je pri Evropskih državah opaziti pri državah Vzhodne Evrope, kjer gre po mnenju medijev ta vpad pripisovati ozaveščanju prebivalstva o pomenu kontracepcije.
 
-```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-ggplot(inner_join(obcine, data.frame(obcina = names(skupine),
-                                     skupina = factor(skupine)), by = "obcina")
-, aes(x = povrsina, y = naselja, color = skupina, size = prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-  guides(color = guide_legend(title = "Skupina"),
-         size = guide_legend(title = "Prebivalci (* 1000)"))
+PRVI ZEMLJEVID
+```{r}
+print(zemljevid.nataliteta)
 ```
 
-***
+Na zgornjem zemljevidu lahko vidimo povezavo med številom rojstev in realno plačo za določeno državo (v tem primeru za leto 2015). Največjo nataliteto med Evropskimi državami ima tako Turčija, kar je najbrž posledica tega, da je kar 99 odstotkov prebivalstva te države islamske veroizpovedi. Visoko nataliteto lahko opazimo tudi na Irskem, v Franciji ter v skandinavskih državah, kjer je tudi realna plača in življenski standard precej visok.
 
-```{r shiny, echo = FALSE}
-shinyAppDir("shiny", options=list(width="100%", height=600))
+
+DRUGI ZEMLJEVID
+```{r}
+print(zemljevid.splavi)
 ```
+
+Na zemljevidu, ki prikazuje povezanost med realno plačo in številom splavov na 1000 prebivalcev za določeno državo (v tem primeru za leto 2011) na žalost precej podatkov manjka.Najmanj splavov je v prej omenjeni Poljski, kjer je tudi realna plača precej nizka, največ splavov pa lahko opazimo v državah Vzhodne Evrope, vendar kot sem že prej omenil se tudi tam število izmanjšuje. 
