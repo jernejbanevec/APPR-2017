@@ -47,10 +47,10 @@ Oblike tabel ter spremenljivke sem že povzel v mapi README. Sestavil sem pa tud
 * 3. stolpec ali meritev: Število splavov na 1000 prebivalcev za določeno državo
 
 
-```{r razpredelnice}
-kable(head(real.wage))
+```{r razpredelnice, echo=FALSE, message=FALSE, warning=FALSE}
+kable(head(real.wage), caption = "Realna plača")
 
-kable(head(nominalno.stevilo.splavov))
+kable(head(nominalno.stevilo.splavov), caption = "Nominalno število splavov")
 ```
 
 Pri tabeli "Povprečna REALNA neto letna plača za določeno državo (v dolarjih)" sem neto plačo delil z indeksom cen za tisto leto, kjer je indeks normiran glede na referenčno leto 2010 za določeno državo. Tako da prikazuje spreminanje za posamezno državo.
@@ -64,21 +64,21 @@ source("vizualizacija/vizualizacija.r", encoding = "UTF-8")
 
 
 PRVI GRAF
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 print(rojstva)
 ```
 
 Pri nataliteti oziroma številu novorojenih otrok na 1000 preivalcev sem bil najbolj pozoren na države, ki so trenutno v gospodarski krizi. Evropska država, ki je zadnja leta v najhujši gospodarski krizi je Grčija, kjer lahko opazimo velik upad rojstev vse od konca prejšnjega desetletja naprej (natančneje od leta 2008, ki predstavlja začetek gospodarske krize). Podoben upad opazimo tudi pri Španiji. Ko nasproten primer Grčiji in Španiji pa lahko opazimo Švico, kjer se število rojstev skozi zadnja leta povečuje. Mogoč vzrok za to je tudi to, da velja Švica za eno gospodarsko stabilnejših držav.
 
 DRUGI GRAF
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 print(splavi)
 ```
 
 Število splavov se iz države v državo precej spreminja. Na Poljskem, so splavi prepovedani, razen v primeru posebnih razmer, kot je naprimer posilstvo, nepopravljivo poškodovan zarodek in podobno. Prvotno so bili tudi na Portugalskem splavi prepovedani, nato pa je leta 2007 bila sprejeta sprememba zakona, ki je dovoljevala splave ženskam, ki še niso v desetem mesecu nosečnosti. Na splošno pa velja tendenca upadanja števila splavov za razvite države, kar je mogoče opaziti tudi pri Sloveniji. Največji upad pa je pri Evropskih državah opaziti pri državah Vzhodne Evrope, kjer gre po mnenju medijev ta vpad pripisovati ozaveščanju prebivalstva o pomenu kontracepcije.
 
 PRVI ZEMLJEVID
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 print(zemljevid.nataliteta)
 ```
 
@@ -86,7 +86,7 @@ Na zgornjem zemljevidu lahko vidimo povezavo med številom rojstev in realno pla
 
 
 DRUGI ZEMLJEVID
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 print(zemljevid.splavi)
 ```
 
