@@ -148,7 +148,7 @@ nominalno.stevilo.splavov <- zdruzeno %>%
 #TABELE, KI NISO VEČ TIDY DATA
 
 # Tabela, z meritvama "NATALITETA" ter "REALNA.PLACA"
-zdruzen.korelacija <- inner_join(crude.birth.rate, real.wage)
+zdruzen.korelacija <- inner_join(crude.birth.rate, real.wage);
 
 #Tabela, z meritvama "NOM.STEVILO.SPLAVOV" ter "REALNA.PLACA"
-zdruzen.obratna.korelacija <- inner_join(nominalno.stevilo.splavov, real.wage)
+zdruzen.obratna.korelacija <- inner_join(nominalno.stevilo.splavov, real.wage);
