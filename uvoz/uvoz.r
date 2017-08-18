@@ -144,3 +144,11 @@ zdruzeno <- zdruzeno[!row.has.na,]
 nominalno.stevilo.splavov <- zdruzeno %>% 
   group_by(DRZAVA, LETO) %>% 
   summarise(NOM.STEVILO.SPLAVOV = STEVILO.SPLAVOV / POPULACIJA * 1000)
+
+#TABELE, KI NISO VEČ TIDY DATA
+
+# Tabela, z meritvama "NATALITETA" ter "REALNA.PLACA"
+zdruzen.korelacija <- inner_join(crude.birth.rate, real.wage)
+
+#Tabela, z meritvama "NOM.STEVILO.SPLAVOV" ter "REALNA.PLACA"
+zdruzen.obratna.korelacija <- inner_join(nominalno.stevilo.splavov, real.wage)
