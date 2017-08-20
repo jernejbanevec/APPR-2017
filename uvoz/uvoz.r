@@ -58,6 +58,7 @@ library(readr)
 library(dplyr)
 library(rvest)
 
+
 #tabela indeksa cen
 consumer.price.index <- read_csv("podatki/consumer_price_index.csv", col_names = c("i", "p", "i2", "DRZAVA", "i3", "i4", "i5", "i6", "LETO", "i7", "i8", "STA", "i9", "i10", "i11", "i12", "INDEX.CEN", "i13", "i14"), 
                                  skip = 1, na = '-', 
@@ -134,7 +135,7 @@ real.wage <- sestavljen.data.frame %>%
 
 #NOMINALNO STEVILO SPLAVOV NA 1000 PREBIVALCEV (zaenkrat zgolj podatki)
 
-zdruzeno <- left_join(data, average.population)
+zdruzeno <- left_join(data, average.population);
 
 #pobrišemo vrstice imajo vrednost "NA"
 row.has.na <- apply(zdruzeno, 1, function(x){any(is.na(x))})
@@ -144,11 +145,3 @@ zdruzeno <- zdruzeno[!row.has.na,]
 nominalno.stevilo.splavov <- zdruzeno %>% 
   group_by(DRZAVA, LETO) %>% 
   summarise(NOM.STEVILO.SPLAVOV = STEVILO.SPLAVOV / POPULACIJA * 1000)
-
-#TABELE, KI NISO VEČ TIDY DATA
-
-# Tabela, z meritvama "NATALITETA" ter "REALNA.PLACA"
-zdruzen.korelacija <- inner_join(crude.birth.rate, real.wage);
-
-#Tabela, z meritvama "NOM.STEVILO.SPLAVOV" ter "REALNA.PLACA"
-zdruzen.obratna.korelacija <- inner_join(nominalno.stevilo.splavov, real.wage);

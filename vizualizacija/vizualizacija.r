@@ -4,6 +4,10 @@ library(dplyr)
 library(readr)
 library(tibble)
 library(mapproj)
+library(GGally)
+library(rvest)
+library(digest)
+library(shiny)
 
 #Uvozimo ZEMLJEVID
 
@@ -67,3 +71,32 @@ zemljevid.nataliteta <- ggplot() + geom_polygon(data = evropa %>%
                inner_join(real.wage %>% filter(LETO == 2015), by = c("name_long" = "DRZAVA")),
              aes(x = x, y = y, size = REALNA.PLACA))+
   coord_map(xlim = c(-25, 40), ylim = c(32, 72)) + ggtitle("Število rojstev v primerjavi z realno plačo")
+
+#PRIKAZ in poračun KORELACIJ
+
+#TABELE, KI NISO VEČ TIDY DATA
+
+# Tabela, z meritvama "NATALITETA" ter "REALNA.PLACA"
+zdruzen.korelacija.nataliteta <- inner_join(crude.birth.rate, real.wage);
+
+#Tabela, z meritvama "NOM.STEVILO.SPLAVOV" ter "REALNA.PLACA"
+zdruzen.korelacija.splavi <- inner_join(nominalno.stevilo.splavov, real.wage);
+
+#IZRAČUN KORELACIJE VSEH DRŽAV
+#tabeli pobrišemo prva 2 stolpca, ki nista pomembna za izračun korelacije
+zdruzen.korelacija1 <- zdruzen.korelacija.nataliteta %>% select(NATALITETA, REALNA.PLACA);
+
+#Iz matrike ki jo dobimo ko uporabimo funkcijo cor pridobimo podatek o Pearsonovem korelacijskem koeficientu (privzeta metoda)
+kovarianca.nataliteta <- cor(zdruzen.korelacija1)[1,2];
+
+#lahko narišemo graf linearnega prileganja, brez intervala zaupanja
+graf.korelacije.natalitete <- ggplot(zdruzen.korelacija1, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#poračunamo koeficient naklona premice 
+lin <- lm(data = zdruzen.korelacija1, NATALITETA ~ REALNA.PLACA)
+
+
+#alternativen izračun koeficienta naklona z uporabo znanja iz verjetnosti in statistike, kjer poračunamo še vzorčni standartni odklon za obe spremenljivki s korenjenjem variance
+varianca.place <- var(zdruzen.korelacija1$REALNA.PLACA)
+varianca.natalitete <- var(zdruzen.korelacija1$NATALITETA)
+alternativen.koeficient.korelacije <- kovarianca.nataliteta * (varianca.place)^(-0.5) * (varianca.natalitete)^(0.5)
