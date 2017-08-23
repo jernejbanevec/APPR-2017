@@ -1,4 +1,13 @@
 # 4. faza: Analiza podatkov
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(tibble)
+library(mapproj)
+library(GGally)
+library(rvest)
+library(digest)
+library(shiny)
 
 #PRIKAZ in poračun KORELACIJ
 
@@ -24,7 +33,7 @@ zdruzen.korelacija1 <- zdruzen.korelacija.nataliteta %>% select(NATALITETA, REAL
 korelacija.nataliteta <- cor(zdruzen.korelacija1)[1,2];
 
 #lahko narišemo graf linearnega prileganja, brez intervala zaupanja
-graf.korelacije.natalitete <- ggplot(zdruzen.korelacija1, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.natalitete <- ggplot(zdruzen.korelacija1, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #poračunamo koeficient naklona premice 
 lin <- lm(data = zdruzen.korelacija1, NATALITETA ~ REALNA.PLACA)
@@ -38,24 +47,63 @@ alternativen.koeficient.korelacije <- korelacija.nataliteta * (varianca.place)^(
 #IZRAČUN KORELACIJE ZA IZBRANE DRŽAVE(ŠPANIJA, GRČIJA, ITALIJA, PORTUGALSKA) slabše finančno stanje
 zdruzen.korelacija2 <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Spain"|DRZAVA == "Portugal"|DRZAVA == "Italy"|DRZAVA == "Greece") %>% select(NATALITETA, REALNA.PLACA);
 korelacija.nataliteta.slabse <- cor(zdruzen.korelacija2)[1,2]
-graf.korelacije.natalitete.izbrane <- ggplot(zdruzen.korelacija2, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.natalitete.izbrane <- ggplot(zdruzen.korelacija2, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #IZRAČUN KORELACIJE ZA IZBRANE DRŽAVE(ŠVICA, DANSKA, NEMČIJA, ŠVEDSKA) boljše finančno stanje
 zdruzen.korelacija3 <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Sweden"|DRZAVA == "Germany"|DRZAVA == "Denmark"|DRZAVA == "Switzerland") %>% select(NATALITETA, REALNA.PLACA);
 korelacija.nataliteta.boljse <- cor(zdruzen.korelacija3)[1,2]
-graf.korelacije.natalitete.izbrane <- ggplot(zdruzen.korelacija3, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.natalitete.izbrane <- ggplot(zdruzen.korelacija3, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #največja korelacija
 zdruzen.korelacija.max <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Netherlands") %>% select(NATALITETA, REALNA.PLACA);
 najvecja.korelacija <- cor(zdruzen.korelacija.max)[1,2]
-graf.korelacije.nizozemska <- ggplot(zdruzen.korelacija.max, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.nizozemska <- ggplot(zdruzen.korelacija.max, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 #najničja korelacija
 zdruzen.korelacija.min <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Slovenia") %>% select(NATALITETA, REALNA.PLACA);
 najmanjsa.korelacija <- cor(zdruzen.korelacija.min)[1,2]
-graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=NATALITETA, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #KORELACIJE SPLAVI (splav se naredi v prvih sedmih tednih, zato ne prištevam leta)
 
-#odštejemo prva dva nepomembna stolpca
-zdruzen.splavi1 <- zdruzen.korelacija.splavi %>% filter(DRZAVA != "Portugal"|DRZAVA != "Poland") %>% select(NOM.STEVILO.SPLAVOV, REALNA.PLACA);
+#odštejemo prva dva nepomembna stolpca in izločimo države ki imajo oz so imele v tem obdobju prepovedane splave
+zdruzen.splavi1 <- zdruzen.korelacija.splavi %>% filter(DRZAVA != "Portugal" & DRZAVA != "Poland")
+zdruzen.splavi1$DRZAVA <- NULL
+zdruzen.splavi1$LETO <- NULL
 
+
+#Iz matrike ki jo dobimo ko uporabimo funkcijo cor pridobimo podatek o Pearsonovem korelacijskem koeficientu (privzeta metoda)
+korelacija.splavi <- cor(zdruzen.splavi1)[1,2];
+
+#lahko narišemo graf linearnega prileganja, brez intervala zaupanja
+graf.korelacije.splavi <- ggplot(zdruzen.splavi1, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#poračunamo koeficient naklona premice 
+lin <- lm(data = zdruzen.splavi1, NOM.STEVILO.SPLAVOV~REALNA.PLACA)
+
+
+#IZRAČUN KORELACIJE ZA IZBRANE DRŽAVE(ŠPANIJA, GRČIJA, ITALIJA, PORTUGALSKA) slabše finančno stanje
+zdruzen.korelacija.splavi2 <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Spain"|DRZAVA == "Italy"|DRZAVA == "Greece");
+zdruzen.korelacija.splavi2$DRZAVA <- NULL
+zdruzen.korelacija.splavi2$LETO <- NULL
+korelacija.splavi.slabse <- cor(zdruzen.korelacija.splavi2)[1,2]
+graf.korelacije.splavi.izbrane2 <- ggplot(zdruzen.korelacija.splavi2, aes(x=NOM.STEVILO.SPLAVOV, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#IZRAČUN KORELACIJE ZA IZBRANE DRŽAVE(ŠVICA, DANSKA, NEMČIJA, ŠVEDSKA) boljše finančno stanje
+zdruzen.korelacija.splavi3 <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Sweden"|DRZAVA == "Germany"|DRZAVA == "Denmark"|DRZAVA == "Switzerland");
+zdruzen.korelacija.splavi3$DRZAVA <- NULL
+zdruzen.korelacija.splavi3$LETO <- NULL
+korelacija.splavi.boljse <- cor(zdruzen.korelacija.splavi3)[1,2]
+graf.korelacije.splavi.izbrane3 <- ggplot(zdruzen.korelacija.splavi3, aes(x=NOM.STEVILO.SPLAVOV, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#največja korelacija
+#zdruzen.korelacija.splavi.max <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Netherlands");
+#zdruzen.korelacija.splavi.max$DRZAVA <- NULL
+#zdruzen.korelacija.splavi.max$LETO <- NULL
+#najvecja.korelacija <- cor(zdruzen.korelacija.splavi.max)[1,2]
+#graf.korelacije.nizozemska <- ggplot(zdruzen.korelacija.max, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+#najničja korelacija
+#zdruzen.korelacija.splavi.min <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Slovenia");
+#zdruzen.korelacija.splavi.min$DRZAVA <- NULL
+#zdruzen.korelacija.splavi.min$LETO <- NULL
+#najmanjsa.korelacija <- cor(zdruzen.korelacija.splavi.min)[1,2]
+#graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
