@@ -63,7 +63,7 @@ zdruzen.korelacija.min <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Sl
 najmanjsa.korelacija <- cor(zdruzen.korelacija.min)[1,2]
 graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
-#KORELACIJE SPLAVI (splav se naredi v prvih sedmih tednih, zato ne prištevam leta)
+#KORELACIJE SPLAVI (splav se naredi v prvih sedmih do desetih tednih, zato ne prištevam leta)
 
 #odštejemo prva dva nepomembna stolpca in izločimo države ki imajo oz so imele v tem obdobju prepovedane splave
 zdruzen.splavi1 <- zdruzen.korelacija.splavi %>% filter(DRZAVA != "Portugal" & DRZAVA != "Poland")
@@ -96,14 +96,15 @@ korelacija.splavi.boljse <- cor(zdruzen.korelacija.splavi3)[1,2]
 graf.korelacije.splavi.izbrane3 <- ggplot(zdruzen.korelacija.splavi3, aes(x=NOM.STEVILO.SPLAVOV, y=REALNA.PLACA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #največja korelacija
-#zdruzen.korelacija.splavi.max <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Netherlands");
-#zdruzen.korelacija.splavi.max$DRZAVA <- NULL
-#zdruzen.korelacija.splavi.max$LETO <- NULL
-#najvecja.korelacija <- cor(zdruzen.korelacija.splavi.max)[1,2]
-#graf.korelacije.nizozemska <- ggplot(zdruzen.korelacija.max, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
-#najničja korelacija
-#zdruzen.korelacija.splavi.min <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Slovenia");
-#zdruzen.korelacija.splavi.min$DRZAVA <- NULL
-#zdruzen.korelacija.splavi.min$LETO <- NULL
-#najmanjsa.korelacija <- cor(zdruzen.korelacija.splavi.min)[1,2]
-#graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+zdruzen.korelacija.splavi.max <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Germany");
+zdruzen.korelacija.splavi.max$DRZAVA <- NULL
+zdruzen.korelacija.splavi.max$LETO <- NULL
+najvecja.korelacija.splavi <- cor(zdruzen.korelacija.splavi.max)[1,2]
+graf.korelacije.nemčija <- ggplot(zdruzen.korelacija.splavi.max, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#najnižja korelacija
+zdruzen.korelacija.splavi.min <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Belgium");
+zdruzen.korelacija.splavi.min$DRZAVA <- NULL
+zdruzen.korelacija.splavi.min$LETO <- NULL
+najmanjsa.korelacija.splavi <- cor(zdruzen.korelacija.splavi.min)[1,2]
+graf.korelacije.Belgija <- ggplot(zdruzen.korelacija.splavi.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
