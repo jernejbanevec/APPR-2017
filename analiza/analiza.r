@@ -118,5 +118,5 @@ zdruzen1$REALNA.PLACA <- zdruzen1$REALNA.PLACA / 10000
 zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
 
 #naredimo tidy data
-#zdruzen <- melt(zdruzen1, id.vars = "DRZAVA", measure.vars = names(zdruzen1)[-1][-2], variable.name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
+zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA"), measure.vars = names(zdruzen1)[-1], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
 
