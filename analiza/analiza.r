@@ -8,6 +8,7 @@ library(GGally)
 library(rvest)
 library(digest)
 library(shiny)
+library(reshape)
 
 #PRIKAZ in poračun KORELACIJ
 
@@ -108,3 +109,14 @@ zdruzen.korelacija.splavi.min$DRZAVA <- NULL
 zdruzen.korelacija.splavi.min$LETO <- NULL
 najmanjsa.korelacija.splavi <- cor(zdruzen.korelacija.splavi.min)[1,2]
 graf.korelacije.Belgija <- ggplot(zdruzen.korelacija.splavi.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+
+#naredim novo tabelo, katera mi bo pomagala pri izdelavi shiny-a 
+zdruzen.korelavija.splavi1 <- zdruzen.korelacija.splavi
+zdruzen.korelavija.splavi1$REALNA.PLACA <- NULL
+zdruzen1 <- inner_join(zdruzen.korelacija.nataliteta, zdruzen.korelavija.splavi1, by = c("DRZAVA", "LETO"))
+zdruzen1$REALNA.PLACA <- zdruzen1$REALNA.PLACA / 10000
+zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
+
+#naredimo tidy data
+#zdruzen <- melt(zdruzen1, id.vars = "DRZAVA", measure.vars = names(zdruzen1)[-1][-2], variable.name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
+
