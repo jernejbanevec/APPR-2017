@@ -8,7 +8,7 @@ library(GGally)
 library(rvest)
 library(digest)
 library(shiny)
-library(reshape)
+library(reshape2)
 
 #PRIKAZ in poračun KORELACIJ
 
@@ -118,5 +118,7 @@ zdruzen1$REALNA.PLACA <- zdruzen1$REALNA.PLACA / 10000
 zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
 
 #naredimo tidy data
-zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA"), measure.vars = names(zdruzen1)[-1], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
-
+zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA","LETO"), measure.vars = names(zdruzen1)[-1][-1], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
+zdruzen$VRSTA <- zdruzen$variable
+zdruzen$variable <- NULL
+zdruzen <- zdruzen[c(1,2,4,3)]
