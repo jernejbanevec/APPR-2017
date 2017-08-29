@@ -11,13 +11,13 @@ shinyUI(fluidPage(
               selected = "Slovenia",
               multiple = FALSE),
   
-  checkboxInput(inputId = "NATALITETA",
-                label = strong("Nataliteta"),
-                value = FALSE),
+  selectInput(inputId = "VRSTA",
+              label = "Vrsta podatka",
+              choices = unique(zdruzen$VRSTA),
+              selected = "Realna plača",
+              multiple = TRUE),
   
-  checkboxInput(inputId = "NOM.STEVILO.SPLAVOV",
-                label = strong("Nominalno število splavov"),
-                value = FALSE)
+  plotOutput(outputId = "graf")
   
   
   
