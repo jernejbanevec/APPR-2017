@@ -121,4 +121,7 @@ zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
 zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA","LETO"), measure.vars = names(zdruzen1)[-1][-1], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
 zdruzen$VRSTA <- zdruzen$variable
 zdruzen$variable <- NULL
+zdruzen$VRSTA <- gsub("NOM.STEVILO.SPLAVOV", "Nominalno število splavov", zdruzen$VRSTA)
+zdruzen$VRSTA <- gsub("REALNA.PLACA", "Realna plača", zdruzen$VRSTA)
+zdruzen$VRSTA <- gsub("NATALITETA", "Nataliteta", zdruzen$VRSTA)
 zdruzen <- zdruzen[c(1,2,4,3)]
