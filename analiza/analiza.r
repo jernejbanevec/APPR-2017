@@ -15,7 +15,7 @@ library(reshape2)
 #TABELE, KI NISO VEČ TIDY DATA
 #preureditev podatkov, ker se odločitev za otroka pozna pri naslednjem letu
 crude.birth.rate.upgraded <- crude.birth.rate
-crude.birth.rate.upgraded$LETO <- crude.birth.rate.upgraded$LETO + 1
+crude.birth.rate.upgraded$LETO <- crude.birth.rate.upgraded$LETO - 1
 
 # Tabela, z meritvama "NATALITETA" ter "REALNA.PLACA"
 zdruzen.korelacija.nataliteta <- inner_join(crude.birth.rate.upgraded, real.wage, by = c("DRZAVA", "LETO"));
