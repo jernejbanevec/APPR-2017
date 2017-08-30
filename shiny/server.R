@@ -1,18 +1,24 @@
 library(shiny)
 library(ggplot2)
-
+library(dplyr)
 shinyServer(function(input, output) {
   
-  output$graf <- renderPlot({
-    podatki <- filter(zdruzen, 
-                      zdruzen$DRZAVA == input$DRZAVA,
-                      zdruzen$VRSTA == input$VRSTA)
+  output$g <- renderPlot({
     
-    graf.koncen <- qplot(x = LETO, y = KOLICINA, color = VRSTA, data = podatki, geom = "line")
-    graf.koncen + xlab("Leto") + ylab("Količina")
+    podatki.prvi.graf <- zdruzen %>% filter(DRZAVA == input$DRZAVA,
+                                  VRSTA == input$VRSTA)
+    
+    
+    
+    qplot(x = LETO, y = KOLICINA, color = VRSTA, data = podatki.prvi.graf, geom = "line") + xlab("Leto") + ylab("Število oseb")
   })
   
-  
+  output$g2 <- renderPlot({
+    
+    podatki.drugi.graf <- zdruzen %>% filter(DRZAVA == input$DRZAVA)
+    
+    qplot(x = LETO, y = REALNA.PLACA, data = podatki.drugi.graf, geom = "line") + xlab("Leto") + ylab("Realna plača (v dolarjih)")
+  })
   
   
 })

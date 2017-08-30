@@ -90,7 +90,7 @@ DRUGI ZEMLJEVID
 print(zemljevid.splavi)
 ```
 
-Na zemljevidu, ki prikazuje povezanost med realno plačo in številom splavov na 1000 prebivalcev za določeno državo (v tem primeru za leto 2011) na žalost precej podatkov manjka.Najmanj splavov je v prej omenjeni Poljski, kjer je tudi realna plača precej nizka, največ splavov pa lahko opazimo v državah Vzhodne Evrope, vendar kot sem že prej omenil se tudi tam število izmanjšuje. 
+Na zemljevidu, ki prikazuje povezanost med realno plačo in številom splavov na 1000 prebivalcev za določeno državo (v tem primeru za leto 2011) na žalost precej podatkov manjka. Najmanj splavov je v prej omenjeni Poljski, kjer je tudi realna plača precej nizka, največ splavov pa lahko opazimo v državah Vzhodne Evrope, vendar kot sem že prej omenil se tudi tam število izmanjšuje. 
 
 # Napredna analiza
 
@@ -99,11 +99,11 @@ source("analiza/analiza.r", encoding = "UTF-8")
 ```
 
 
-Pri napredni analizi sem se najbolj osredotočal na računanje in pojasnjevanje odvisnosti natalitete in nominalnega števila splavov od povprečne realne letne plače. 
+Pri napredni analizi sem se najbolj osredotočal na računanje korelacije ter pojasnjevanje odvisnosti natalitete in nominalnega števila splavov od povprečne realne letne plače. 
 
 NATALITETA
 
-Pri računenju odvisnosti natalitete od realne plače sem upošteval, da se odločitev para za otroka pozna komaj naslednje leto, saj nosečnost navadno treja 9 mesecev (oziroma natančneje 38 mesecev). Tako da sem pri računenju korelacije nataliteti odštel eno leto in tako primerjal s podatki o realni plači iz prejšnjega leta. Tako sem žal izgubil podatke o nataliteti iz leta 2000, saj podatkov za realno plačo iz leta 1999 nimam. 
+Pri računenju odvisnosti natalitete od realne plače sem upošteval, da se odločitev para za otroka pozna komaj naslednje leto, saj nosečnost navadno treja 9 mesecev (oziroma natančneje 38 tednov). Tako da sem pri računenju korelacije nataliteti odštel eno leto in tako primerjal s podatki o realni plači iz prejšnjega leta. Tako sem žal izgubil podatke o nataliteti iz leta 2000, saj podatkov za realno plačo iz leta 1999 nimam. 
 Korelacijo sem izračunal s pomočjo funkcije "cor()", ki ob nespremenjenih parametrih izračuna modelov Pearsonov korelacijski koeficient. 
 
 Dobil sem pozitivno korelacijo, kot sem nekako predpostavljal. Natančneje sem dobil korelacijo 0.4767125. Korelacija je precej visoka in pojasnjuje, da višja realna letna plača tudi pripomore k odločitvi para za otroka.
@@ -153,6 +153,10 @@ Najpozitivnejšo korelacijo pa sem odkril pri Nemčiji, kjer ta znaša 0.9717576
 
 
 # Shiny oziroma napredna predstavitev podatkov
+
+```{r shiny, echo=FALSE, message=FALSE, warning=FALSE}
+shinyAppDir("shiny", options=list(width="100%", height=600))
+```
 
 
 

@@ -1,6 +1,5 @@
 library(shiny)
 library(DT)
-
 shinyUI(fluidPage(
   
   titlePanel("Prikaz podatkov za posamezno državo"),
@@ -14,10 +13,15 @@ shinyUI(fluidPage(
   selectInput(inputId = "VRSTA",
               label = "Vrsta podatka",
               choices = unique(zdruzen$VRSTA),
-              selected = "Realna plača (v 10000 dolarjih)",
+              selected = "Nataliteta",
               multiple = TRUE),
   
-  plotOutput(outputId = "graf")
+  
+  tabPanel("grafa",
+           fluidRow(
+             column(width = 6, plotOutput("g"), h4("Nataliteta in nominalno število splavov")),
+             column(width = 6, plotOutput("g2"), h4("Povprečna realna letna plača"))
+           ))
   
   
   

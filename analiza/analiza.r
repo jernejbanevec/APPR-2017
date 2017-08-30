@@ -115,14 +115,13 @@ zdruzen.korelavija.splavi1 <- zdruzen.korelacija.splavi
 zdruzen.korelavija.splavi1$REALNA.PLACA <- NULL
 zdruzen.korelacija.nataliteta1 <- inner_join(crude.birth.rate, real.wage, by = c("DRZAVA", "LETO"));
 zdruzen1 <- inner_join(zdruzen.korelacija.nataliteta1, zdruzen.korelavija.splavi1, by = c("DRZAVA", "LETO"))
-zdruzen1$REALNA.PLACA <- zdruzen1$REALNA.PLACA / 10000
 zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
 
 #naredimo tidy data
-zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA","LETO"), measure.vars = names(zdruzen1)[-1][-1], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
+zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA","LETO", "REALNA.PLACA"), measure.vars = names(zdruzen1)[-1][-1][-3], variable_name = "VRSTA", value.name = "KOLICINA", na.rm = TRUE)
 zdruzen$VRSTA <- zdruzen$variable
 zdruzen$variable <- NULL
 zdruzen$VRSTA <- gsub("NOM.STEVILO.SPLAVOV", "Nominalno število splavov", zdruzen$VRSTA)
-zdruzen$VRSTA <- gsub("REALNA.PLACA", "Realna plača (v 10000 dolarjih)", zdruzen$VRSTA)
+#zdruzen$VRSTA <- gsub("REALNA.PLACA", "Realna plača (v 10000 dolarjih)", zdruzen$VRSTA)
 zdruzen$VRSTA <- gsub("NATALITETA", "Nataliteta", zdruzen$VRSTA)
-zdruzen <- zdruzen[c(1,2,4,3)]
+zdruzen <- zdruzen[c(1,2,5,4,3)]
