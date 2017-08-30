@@ -91,3 +91,72 @@ print(zemljevid.splavi)
 ```
 
 Na zemljevidu, ki prikazuje povezanost med realno plačo in številom splavov na 1000 prebivalcev za določeno državo (v tem primeru za leto 2011) na žalost precej podatkov manjka.Najmanj splavov je v prej omenjeni Poljski, kjer je tudi realna plača precej nizka, največ splavov pa lahko opazimo v državah Vzhodne Evrope, vendar kot sem že prej omenil se tudi tam število izmanjšuje. 
+
+# Napredna analiza
+
+```{r napredna analiza, echo=FALSE, message=FALSE, warning=FALSE}
+source("analiza/analiza.r", encoding = "UTF-8")
+```
+
+
+Pri napredni analizi sem se najbolj osredotočal na računanje in pojasnjevanje odvisnosti natalitete in nominalnega števila splavov od povprečne realne letne plače. 
+
+NATALITETA
+
+Pri računenju odvisnosti natalitete od realne plače sem upošteval, da se odločitev para za otroka pozna komaj naslednje leto, saj nosečnost navadno treja 9 mesecev (oziroma natančneje 38 mesecev). Tako da sem pri računenju korelacije nataliteti odštel eno leto in tako primerjal s podatki o realni plači iz prejšnjega leta. Tako sem žal izgubil podatke o nataliteti iz leta 2000, saj podatkov za realno plačo iz leta 1999 nimam. 
+Korelacijo sem izračunal s pomočjo funkcije "cor()", ki ob nespremenjenih parametrih izračuna modelov Pearsonov korelacijski koeficient. 
+
+Dobil sem pozitivno korelacijo, kot sem nekako predpostavljal. Natančneje sem dobil korelacijo 0.4767125. Korelacija je precej visoka in pojasnjuje, da višja realna letna plača tudi pripomore k odločitvi para za otroka.
+
+GRAF LINERANE APROKSIMACIJE NATALITETE
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf.korelacije.natalitete)
+```
+
+Razpršene podatke sem aproksimiral z linerano premico. Naklon te premice sem izračunal na dva načina in obakrat dobil enako vrednost. Prvič sem poračunal s pomočjo statistične funkcije "lm" in dobil enako vrednost kot s pomočjo formule, v kateri je naklon premice enak  količniku med produktom korelacije in standardnega odklonu plače, ter standardnega odklona natalitete.
+
+Največjo korelacijo sem odkril pri Danski, kjer ta znaša kar 0.9423279, kar je zelo blizu ena oziroma popolni korelaciji. To je dobro razvidno iz naslednjega grafa linearne aproksimacije.
+
+GRAF LINEARNE APROKSIMACIJE NATALITETE DANSKA
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf.korelacije.danska)
+```
+
+Podobno visok koeficient korelacije je značilen za Nizozemsko, kjer znaša 0.9394042, kar je tudi precej blizu 1. Prav tako je za večino Evropskih držav značilna pozitivna korelacija med realna letno plačo in nataliteto. Z negativno korelacijo izstopajo le Belgija, Norveška, Velika Britanija in Slovenija. Prav Slovenija je država z najnegativnejšo korelacijo. Pri nas ta korelacija znaša kar -0.6079366, kar pomeni, da se pari pri višji realni plači redkeje odločujejo za otroka. Prav tako kot pri Danski lahko podatke uprizorimo na grafu in ob uporabi linearne regresije dobimo naslednji graf.
+
+GRAF LINEARNE APROKSIMACIJE NATALITETE SLOVENIJA
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf.korelacije.slovenia)
+```
+
+Kot lahko opazimo ima graf regresijsko premico z negativnim koeficientom, kar se precej razlikuje od Danske. Ena od možnih razlag za to, da se pari pri višji realni plači redkeje odločujejo za otroka, je po mojem mnenju ta, da se Slovenci ob vešji plači raje odločimo za kariero oziroma za trenutni zaslužek, kot za družino.
+
+SPLAVI
+
+Pri analizi korelacije števila splavov in realne plače podatkov nisem potreboval preurejati, saj se umetni splav običajno izvede v prvih desetih tednih od spočetja otroka. Sem pa zato iz podatkov za izračun korelacije izvzel Poljsko, kjer so splavi še vedno v splošnem prepovedani, ter Portugalsko, kjer so splavi dovoljeni od leta 2007. Te podatke sem izvzel, saj bi bila pri Poljski korelacija blizu 0, na Portugalskem pa skok v številu splavov ne bi bil objasnejn s realno plačo, kar bi slabo vplivalo na resnično vrednost korelacije,  
+Pri splavih sem pričakoval različno predznačeno korelacijo kot pri nataliteti, saj se za splav načeloma odloči par, ki finančno ni dovolj stabilen oziroma nima dovolj prihodkov, da bi financiral otroka. Negativno korelacijo med nominalnim številom splavov in povprečno realno letno plačo potrjuje tudi iz podatkov izračunana korelacija, ki znaša -0.3875067. 
+
+Najnegativnejšo korelacijo sem izračunal pri Belgiji, kjer znaša kar -0.9732906, kar nam pove, da se število splavov ob povečanju realne plače pomanjša. 
+
+GRAF LINEARNE APROKSIMACIJE SPLAVOV BELGIJA
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf.korelacije.Belgija)
+```
+
+Najpozitivnejšo korelacijo pa sem odkril pri Nemčiji, kjer ta znaša 0.9717576. To nam pove, da se pri povečanju realne plače poveča tudi število splavov. Podobno precej pozitivno korelacijo ima tudi Slovenija, kar še bolj potrjuje mojo domnevo od prej, da se Slovenci ob realnem povečanju plače odločijo za kariero in ne za naraščaj, saj se ob povečanju plače povečajo tudi splavi.
+
+
+
+
+
+# Shiny oziroma napredna predstavitev podatkov
+
+
+
+# Zaključek in ugotovitve
+
+Poleg statistične ugotovitve, da sta nataliteta in povprečna realna plača pozitivno korelirani, ter ugotovitve, da sta nominalno število splavov in realna plača negativno korelirani, sem ugotovil še veliko novih stvari. Tako sedaj vem, da so na Poljskem splavi še vedno prepovedani ter da so na Portugaljskem splavi dovoljeni od leta 2007. Prav tako sem ugotovil, da se naprimer v Sloveniji tako nominalno število splavov ter nataliteta glede na realno letno plačo giblje ravno nasprotno od pričakovanega. 
+Se pa zavedam, da imam relativno malo podatkov (le 15 na državo). Prav tako niso vsi podatki odvisni le od realne plače, saj kot sem že prej omenil na primer pri Rusiji in drugih državah vzhodne Evrope število splavov upada zaradi spoznavanja različnih oblik kontracepcije ter pomembnosti le-te. 

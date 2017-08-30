@@ -34,7 +34,7 @@ zdruzen.korelacija1 <- zdruzen.korelacija.nataliteta %>% select(NATALITETA, REAL
 korelacija.nataliteta <- cor(zdruzen.korelacija1)[1,2];
 
 #lahko narišemo graf linearnega prileganja, brez intervala zaupanja
-graf.korelacije.natalitete <- ggplot(zdruzen.korelacija1, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.natalitete <- ggplot(zdruzen.korelacija1, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE) + xlab("Realna plača (v dolarjih)") + ylab("Nataliteta");
 
 #poračunamo koeficient naklona premice 
 lin <- lm(data = zdruzen.korelacija1, NATALITETA ~ REALNA.PLACA)
@@ -56,13 +56,13 @@ korelacija.nataliteta.boljse <- cor(zdruzen.korelacija3)[1,2]
 graf.korelacije.natalitete.izbrane <- ggplot(zdruzen.korelacija3, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #največja korelacija
-zdruzen.korelacija.max <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Netherlands") %>% select(NATALITETA, REALNA.PLACA);
+zdruzen.korelacija.max <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Denmark") %>% select(NATALITETA, REALNA.PLACA);
 najvecja.korelacija <- cor(zdruzen.korelacija.max)[1,2]
-graf.korelacije.nizozemska <- ggplot(zdruzen.korelacija.max, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.danska <- ggplot(zdruzen.korelacija.max, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE) + xlab("Realna plača (v dolarjih)") + ylab("Nataliteta");
 #najničja korelacija
 zdruzen.korelacija.min <- zdruzen.korelacija.nataliteta %>% filter(DRZAVA == "Slovenia") %>% select(NATALITETA, REALNA.PLACA);
 najmanjsa.korelacija <- cor(zdruzen.korelacija.min)[1,2]
-graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.slovenia <- ggplot(zdruzen.korelacija.min, aes(x=REALNA.PLACA, y=NATALITETA)) + geom_point() + geom_smooth(method = "lm", se=FALSE) + xlab("Realna plača (v dolarjih)") + ylab("Nataliteta");
 
 #KORELACIJE SPLAVI (splav se naredi v prvih sedmih do desetih tednih, zato ne prištevam leta)
 
@@ -79,7 +79,7 @@ korelacija.splavi <- cor(zdruzen.splavi1)[1,2];
 graf.korelacije.splavi <- ggplot(zdruzen.splavi1, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
 
 #poračunamo koeficient naklona premice 
-lin <- lm(data = zdruzen.splavi1, NOM.STEVILO.SPLAVOV~REALNA.PLACA)
+lin.splavi <- lm(data = zdruzen.splavi1, NOM.STEVILO.SPLAVOV~REALNA.PLACA)
 
 
 #IZRAČUN KORELACIJE ZA IZBRANE DRŽAVE(ŠPANIJA, GRČIJA, ITALIJA, PORTUGALSKA) slabše finančno stanje
@@ -101,14 +101,14 @@ zdruzen.korelacija.splavi.max <- zdruzen.korelacija.splavi %>% filter(DRZAVA == 
 zdruzen.korelacija.splavi.max$DRZAVA <- NULL
 zdruzen.korelacija.splavi.max$LETO <- NULL
 najvecja.korelacija.splavi <- cor(zdruzen.korelacija.splavi.max)[1,2]
-graf.korelacije.nemčija <- ggplot(zdruzen.korelacija.splavi.max, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.nemčija <- ggplot(zdruzen.korelacija.splavi.max, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE) + xlab("Realna plača (v dolarjih)") + ylab("Nominalno število splavov");
 
 #najnižja korelacija
 zdruzen.korelacija.splavi.min <- zdruzen.korelacija.splavi %>% filter(DRZAVA == "Belgium");
 zdruzen.korelacija.splavi.min$DRZAVA <- NULL
 zdruzen.korelacija.splavi.min$LETO <- NULL
 najmanjsa.korelacija.splavi <- cor(zdruzen.korelacija.splavi.min)[1,2]
-graf.korelacije.Belgija <- ggplot(zdruzen.korelacija.splavi.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE);
+graf.korelacije.Belgija <- ggplot(zdruzen.korelacija.splavi.min, aes(x=REALNA.PLACA, y=NOM.STEVILO.SPLAVOV)) + geom_point() + geom_smooth(method = "lm", se=FALSE) + xlab("Realna plača (v dolarjih)") + ylab("Nominalno število splavov");
 
 #naredim novo tabelo, katera mi bo pomagala pri izdelavi shiny-a 
 zdruzen.korelavija.splavi1 <- zdruzen.korelacija.splavi
