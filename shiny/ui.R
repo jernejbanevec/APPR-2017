@@ -14,7 +14,7 @@ shinyUI(fluidPage(
   selectInput(inputId = "VRSTA",
               label = "Vrsta podatka",
               choices = unique(zdruzen$VRSTA),
-              selected = "Realna plača",
+              selected = "Realna plača (v 10000 dolarjih)",
               multiple = TRUE),
   
   plotOutput(outputId = "graf")

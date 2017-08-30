@@ -113,7 +113,8 @@ graf.korelacije.Belgija <- ggplot(zdruzen.korelacija.splavi.min, aes(x=REALNA.PL
 #naredim novo tabelo, katera mi bo pomagala pri izdelavi shiny-a 
 zdruzen.korelavija.splavi1 <- zdruzen.korelacija.splavi
 zdruzen.korelavija.splavi1$REALNA.PLACA <- NULL
-zdruzen1 <- inner_join(zdruzen.korelacija.nataliteta, zdruzen.korelavija.splavi1, by = c("DRZAVA", "LETO"))
+zdruzen.korelacija.nataliteta1 <- inner_join(crude.birth.rate, real.wage, by = c("DRZAVA", "LETO"));
+zdruzen1 <- inner_join(zdruzen.korelacija.nataliteta1, zdruzen.korelavija.splavi1, by = c("DRZAVA", "LETO"))
 zdruzen1$REALNA.PLACA <- zdruzen1$REALNA.PLACA / 10000
 zdruzen1 <- zdruzen1[c(1,2,3,5,4)]
 
@@ -122,6 +123,6 @@ zdruzen <- melt(zdruzen1, id.vars = c("DRZAVA","LETO"), measure.vars = names(zdr
 zdruzen$VRSTA <- zdruzen$variable
 zdruzen$variable <- NULL
 zdruzen$VRSTA <- gsub("NOM.STEVILO.SPLAVOV", "Nominalno število splavov", zdruzen$VRSTA)
-zdruzen$VRSTA <- gsub("REALNA.PLACA", "Realna plača", zdruzen$VRSTA)
+zdruzen$VRSTA <- gsub("REALNA.PLACA", "Realna plača (v 10000 dolarjih)", zdruzen$VRSTA)
 zdruzen$VRSTA <- gsub("NATALITETA", "Nataliteta", zdruzen$VRSTA)
 zdruzen <- zdruzen[c(1,2,4,3)]
