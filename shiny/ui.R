@@ -10,9 +10,9 @@ shinyUI(fluidPage(
               selected = "Slovenia",
               multiple = FALSE),
   
-  selectInput(inputId = "VRSTA",
+  selectInput(inputId = "Vrsta",
               label = "Vrsta podatka",
-              choices = unique(zdruzen$VRSTA),
+              choices = unique(zdruzen$Vrsta),
               selected = "Nataliteta",
               multiple = TRUE),
   

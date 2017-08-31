@@ -57,7 +57,7 @@ zemljevid.splavi <- ggplot() + geom_polygon(data = evropa %>%
                inner_join(real.wage %>% filter(LETO == 2011), by = c("name_long" = "DRZAVA")),
              aes(x = x, y = y, size = REALNA.PLACA))+
   coord_map(xlim = c(-25, 40), ylim = c(32, 72)) + scale_fill_gradient(low = "#3C0000", high = "#F00000") + 
-  ggtitle("Število splavov v primerjavi z realno plačo")
+  ggtitle("Število splavov v primerjavi z realno plačo (leto 2011)") + xlab ("Zemljepisna širina") + ylab("Zemljepisna dolžina") + guides(fill = guide_colorbar("Število splavov na 1000 oseb"), size = guide_legend("Povprečna realna letna plača (v dolarjih)")) + theme(legend.position = "right")
 
 
 #oznake na zemljevidu, katerih velikost pove realno plačo in število novorojenih otrok
@@ -70,5 +70,5 @@ zemljevid.nataliteta <- ggplot() + geom_polygon(data = evropa %>%
                group_by(name_long) %>% summarise(x = mean(long), y= mean(lat)) %>%
                inner_join(real.wage %>% filter(LETO == 2015), by = c("name_long" = "DRZAVA")),
              aes(x = x, y = y, size = REALNA.PLACA))+
-  coord_map(xlim = c(-25, 40), ylim = c(32, 72)) + ggtitle("Število rojstev v primerjavi z realno plačo")
+  coord_map(xlim = c(-25, 40), ylim = c(32, 72)) + ggtitle("Število rojstev v primerjavi z realno plačo (leto 2015)") + xlab ("Zemljepisna širina") + ylab("Zemljepisna dolžina") + guides(fill = guide_colorbar("Nataliteta"), size = guide_legend("Povprečna realna letna plača (v dolarjih)")) + theme(legend.position = "right")
 

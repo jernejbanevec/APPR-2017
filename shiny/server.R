@@ -6,11 +6,11 @@ shinyServer(function(input, output) {
   output$g <- renderPlot({
     
     podatki.prvi.graf <- zdruzen %>% filter(DRZAVA == input$DRZAVA,
-                                  VRSTA == input$VRSTA)
+                                  Vrsta == input$Vrsta)
     
     
     
-    qplot(x = LETO, y = KOLICINA, color = VRSTA, data = podatki.prvi.graf, geom = "line") + xlab("Leto") + ylab("Število oseb")
+    qplot(x = LETO, y = KOLICINA, color = Vrsta, data = podatki.prvi.graf, geom = "line") + xlab("Leto") + ylab("Število oseb")
   })
   
   output$g2 <- renderPlot({
